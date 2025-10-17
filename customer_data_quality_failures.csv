@@ -1,0 +1,1001 @@
+CustomerID,FirstName,LastName,Email,DateOfBirth,Phone,Postcode,FailureType,FailureDescription
+735,David,Wilson,david.wilson@test.org,11/06/1973,4.47918E+11,80268,Uniqueness,Duplicate CustomerID
+254,Emily,Rodriguez,emily.rodriguez@test.org,19/06/1956,4.47426E+11,15544,Uniqueness,Duplicate CustomerID
+801,James,Johnson,james.johnson@mail.com,16/03/1973,4.47438E+11,60860,Uniqueness,Duplicate CustomerID
+356,Laura,Rodriguez,laura.rodriguez@demo.net,30/09/1994,4.47944E+11,50441,Uniqueness,Duplicate CustomerID
+597,Emily,Jones,,06/04/1978,4.47994E+11,61505,Completeness,Missing mandatory field(s)
+180,David,Williams,david.williams@example.com,14/02/1992,4.47839E+11,44737,Uniqueness,Duplicate CustomerID
+86,Anna,Miller,anna.miller@demo.net,20/08/1989,4.47475E+11,98555,Uniqueness,Duplicate CustomerID
+801,James,Brown,james.brown@demo.net,06/07/1990,4.47954E+11,39949,Uniqueness,Duplicate CustomerID
+807,Emily,Williams,invalid@,17/12/1998,,ABCDE,Validity,Invalid format or value
+121,Laura,Johnson,laura.johnson@demo.net,16/10/2026,4.47682E+11,70258,Consistency,Date of birth is after current date
+15,James,Brown,,07/01/1955,,,Validity,Invalid format or value
+653,Chris,Davis,chris.davis@demo.net,29/10/2025,4.47961E+11,96643,Consistency,Date of birth is after current date
+405,Jane,Garcia,jane.garcia@test.org,30/04/1964,4.47435E+11,99925,Uniqueness,Duplicate CustomerID
+348,David,Jones,invalid@,19/07/1956,abcdefghij,,Validity,Invalid format or value
+990,David,Wilson,,04/12/1956,,ABCDE,Validity,Invalid format or value
+231,David,Miller,noatsign.com,09/10/1985,abcdefghij,,Validity,Invalid format or value
+234,Jane,Miller,jane.miller@mail.com,01/12/1999,4.47064E+11,86869,Completeness,Missing mandatory field(s)
+875,John,Miller,invalid@,10/01/1950,abcdefghij,9999999999,Validity,Invalid format or value
+837,James,Davis,user@@domain.com,15/12/1980,4.4E+11,,Validity,Invalid format or value
+699,Sarah,Rodriguez,,02/04/1965,,96194,Completeness,Missing mandatory field(s)
+619,James,Wilson,james.wilson@test.org,25/12/1964,4.4707E+11,15992,Uniqueness,Duplicate CustomerID
+487,Laura,Wilson,laura.wilson@mail.com,07/12/2026,4.47115E+11,27758,Consistency,Date of birth is after current date
+540,Jane,Davis,,10/02/1983,,73968,Completeness,Missing mandatory field(s)
+905,Jane,Williams,jane.williams@test.org,10/05/1960,4.47955E+11,24029,Uniqueness,Duplicate CustomerID
+66,James,Smith,james.smith@test.org,26/02/2027,4.47593E+11,29410,Consistency,Date of birth is after current date
+32,David,Brown,david.brown@mail.com,26/05/2026,4.47428E+11,98039,Consistency,Date of birth is after current date
+352,Jane,Miller,jane.miller@mail.com,09/11/2025,4.47132E+11,45058,Consistency,Date of birth is after current date
+291,Chris,Johnson,noatsign.com,22/06/1974,4.4E+11,,Validity,Invalid format or value
+690,Laura,Jones,invalid@,14/11/1991,4.4E+11,,Validity,Invalid format or value
+273,Laura,Rodriguez,invalid@,25/08/1982,12345,,Validity,Invalid format or value
+240,Anna,Wilson,anna.wilson@example.com,20/08/2004,4.47998E+11,,Completeness,Missing mandatory field(s)
+73,Sarah,Jones,sarah.jones@mail.com,28/03/2026,4.47025E+11,96511,Consistency,Date of birth is after current date
+473,Jane,Jones,jane.jones@mail.com,13/04/1986,4.47743E+11,41890,Uniqueness,Duplicate CustomerID
+24,David,Williams,,17/04/1950,4.47775E+11,44522,Completeness,Missing mandatory field(s)
+197,Anna,Miller,anna.miller@mail.com,22/01/1967,4.47667E+11,42850,Completeness,Missing mandatory field(s)
+614,John,Wilson,john.wilson@mail.com,21/02/2027,4.47536E+11,64000,Consistency,Date of birth is after current date
+51,Michael,Johnson,michael.johnson@example.com,07/02/1971,4.47434E+11,25713,Uniqueness,Duplicate CustomerID
+906,Jane,Rodriguez,jane.rodriguez@example.com,02/02/1966,4.4724E+11,77603,Uniqueness,Duplicate CustomerID
+55,Chris,Garcia,user@@domain.com,05/07/1956,,ABCDE,Validity,Invalid format or value
+821,Sarah,Garcia,sarah.garcia@demo.net,19/02/2026,4.47385E+11,50038,Consistency,Date of birth is after current date
+923,James,Johnson,james.johnson@example.com,19/07/1973,,30352,Completeness,Missing mandatory field(s)
+765,Anna,Wilson,anna.wilson@test.org,28/04/2026,4.47946E+11,60418,Consistency,Date of birth is after current date
+589,Anna,Brown,,15/01/1983,,74665,Completeness,Missing mandatory field(s)
+27,James,Rodriguez,user@@domain.com,26/09/2003,,9999999999,Validity,Invalid format or value
+740,Laura,Wilson,,06/04/1966,,59774,Completeness,Missing mandatory field(s)
+470,James,Miller,james.miller@demo.net,22/07/1962,,20279,Completeness,Missing mandatory field(s)
+764,Anna,Williams,noatsign.com,17/04/1959,,ABCDE,Validity,Invalid format or value
+167,Laura,Jones,laura.jones@example.com,15/09/1986,4.47723E+11,75444,Uniqueness,Duplicate CustomerID
+282,Chris,Johnson,,19/03/1980,4.47941E+11,91006,Completeness,Missing mandatory field(s)
+200,Sarah,Davis,,06/01/1968,abcdefghij,9999999999,Validity,Invalid format or value
+703,Emily,Garcia,emily.garcia@example.com,01/08/2005,4.47949E+11,83584,Uniqueness,Duplicate CustomerID
+172,Sarah,Rodriguez,invalid@,26/03/1950,12345,ABCDE,Validity,Invalid format or value
+315,Laura,Davis,laura.davis@test.org,05/10/1966,4.47533E+11,,Completeness,Missing mandatory field(s)
+978,James,Jones,james.jones@test.org,18/03/1993,4.47579E+11,39770,Uniqueness,Duplicate CustomerID
+528,James,Rodriguez,james.rodriguez@example.com,17/05/2026,4.47123E+11,45112,Consistency,Date of birth is after current date
+347,John,Garcia,john.garcia@test.org,18/08/2026,4.47519E+11,42096,Consistency,Date of birth is after current date
+192,Emily,Brown,emily.brown@test.org,01/10/2004,4.47679E+11,66120,Uniqueness,Duplicate CustomerID
+812,Anna,Jones,anna.jones@mail.com,21/02/2026,4.47195E+11,97946,Consistency,Date of birth is after current date
+735,John,Williams,john.williams@mail.com,11/08/2026,4.47384E+11,67372,Consistency,Date of birth is after current date
+656,Laura,Jones,user@@domain.com,04/02/1974,abcdefghij,,Validity,Invalid format or value
+398,Sarah,Williams,sarah.williams@demo.net,30/01/1973,,,Completeness,Missing mandatory field(s)
+24,David,Williams,david.williams@demo.net,28/12/2026,4.47775E+11,44522,Consistency,Date of birth is after current date
+200,Chris,Davis,chris.davis@mail.com,24/02/1962,4.47822E+11,94085,Uniqueness,Duplicate CustomerID
+825,Anna,Wilson,anna.wilson@demo.net,24/05/2026,4.47228E+11,14804,Consistency,Date of birth is after current date
+794,Anna,Garcia,anna.garcia@mail.com,07/02/1955,4.47545E+11,20500,Uniqueness,Duplicate CustomerID
+317,Jane,Davis,jane.davis@mail.com,09/12/1998,4.47315E+11,52101,Uniqueness,Duplicate CustomerID
+367,Sarah,Garcia,sarah.garcia@demo.net,13/05/1963,4.47651E+11,77568,Uniqueness,Duplicate CustomerID
+602,Jane,Johnson,,17/04/1977,4.4E+11,ABCDE,Validity,Invalid format or value
+108,Michael,Garcia,michael.garcia@mail.com,08/10/2026,4.47279E+11,59689,Consistency,Date of birth is after current date
+564,James,Garcia,james.garcia@test.org,19/09/1992,4.47105E+11,67431,Uniqueness,Duplicate CustomerID
+960,Laura,Garcia,laura.garcia@test.org,26/11/2026,4.47748E+11,74237,Consistency,Date of birth is after current date
+492,Laura,Wilson,laura.wilson@mail.com,28/03/1979,4.47404E+11,46739,Completeness,Missing mandatory field(s)
+312,David,Johnson,david.johnson@demo.net,07/01/1973,4.4758E+11,47070,Uniqueness,Duplicate CustomerID
+664,Michael,Wilson,michael.wilson@test.org,08/09/1978,4.47978E+11,18783,Uniqueness,Duplicate CustomerID
+700,James,Williams,,04/10/1958,4.47505E+11,,Completeness,Missing mandatory field(s)
+634,John,Wilson,,29/11/2000,,33865,Completeness,Missing mandatory field(s)
+741,Sarah,Wilson,sarah.wilson@example.com,21/09/1961,4.47519E+11,73979,Uniqueness,Duplicate CustomerID
+60,Jane,Williams,jane.williams@test.org,03/12/2026,4.47955E+11,24029,Consistency,Date of birth is after current date
+740,Laura,Johnson,laura.johnson@mail.com,25/09/1973,4.47846E+11,91927,Uniqueness,Duplicate CustomerID
+207,Sarah,Wilson,sarah.wilson@mail.com,03/09/1955,4.47682E+11,70852,Completeness,Missing mandatory field(s)
+452,James,Smith,james.smith@example.com,01/09/1956,4.47878E+11,97584,Uniqueness,Duplicate CustomerID
+663,David,Johnson,david.johnson@demo.net,11/12/2026,4.47883E+11,92211,Consistency,Date of birth is after current date
+57,James,Jones,,24/04/1981,,19016,Completeness,Missing mandatory field(s)
+867,James,Davis,james.davis@test.org,14/03/2026,4.47659E+11,99727,Consistency,Date of birth is after current date
+36,John,Brown,,26/10/1952,,53309,Completeness,Missing mandatory field(s)
+954,David,Johnson,david.johnson@test.org,24/07/1992,4.47754E+11,30070,Uniqueness,Duplicate CustomerID
+573,Jane,Garcia,invalid@,30/09/1977,12345,,Validity,Invalid format or value
+732,Chris,Brown,chris.brown@demo.net,23/07/1976,4.47284E+11,70853,Uniqueness,Duplicate CustomerID
+777,James,Jones,user@@domain.com,26/03/1984,12345,ABCDE,Validity,Invalid format or value
+617,James,Smith,,21/03/1982,,81371,Completeness,Missing mandatory field(s)
+138,Chris,Williams,chris.williams@demo.net,16/03/1959,4.47937E+11,11607,Completeness,Missing mandatory field(s)
+253,Laura,Davis,laura.davis@mail.com,04/08/1961,4.47408E+11,79806,Completeness,Missing mandatory field(s)
+786,Laura,Johnson,laura.johnson@test.org,21/10/1974,4.47688E+11,52616,Uniqueness,Duplicate CustomerID
+908,James,Wilson,james.wilson@example.com,31/01/2026,4.47106E+11,31409,Consistency,Date of birth is after current date
+893,Laura,Wilson,noatsign.com,31/07/1998,abcdefghij,9999999999,Validity,Invalid format or value
+136,Chris,Brown,chris.brown@test.org,05/02/1966,,11854,Completeness,Missing mandatory field(s)
+332,James,Rodriguez,invalid@,28/11/1976,,9999999999,Validity,Invalid format or value
+754,John,Brown,john.brown@demo.net,22/06/2026,4.47601E+11,91232,Consistency,Date of birth is after current date
+210,Michael,Davis,michael.davis@demo.net,01/01/2026,4.4772E+11,80804,Consistency,Date of birth is after current date
+346,Anna,Jones,user@@domain.com,30/04/2001,,,Validity,Invalid format or value
+572,Emily,Smith,emily.smith@mail.com,26/09/1957,4.47993E+11,66948,Uniqueness,Duplicate CustomerID
+626,John,Brown,john.brown@mail.com,16/10/1951,4.47565E+11,72650,Completeness,Missing mandatory field(s)
+486,Jane,Miller,user@@domain.com,15/02/1972,4.4E+11,ABCDE,Validity,Invalid format or value
+394,John,Davis,john.davis@demo.net,19/09/1966,4.47804E+11,47941,Completeness,Missing mandatory field(s)
+706,John,Williams,john.williams@mail.com,21/12/1967,4.47368E+11,63633,Uniqueness,Duplicate CustomerID
+595,Laura,Johnson,laura.johnson@example.com,06/05/1995,4.47143E+11,93521,Uniqueness,Duplicate CustomerID
+405,Anna,Davis,anna.davis@example.com,23/09/1962,4.47796E+11,92991,Uniqueness,Duplicate CustomerID
+395,John,Smith,invalid@,14/12/2000,abcdefghij,9999999999,Validity,Invalid format or value
+315,Laura,Davis,laura.davis@test.org,17/04/2026,4.47533E+11,75211,Consistency,Date of birth is after current date
+769,Emily,Brown,user@@domain.com,23/12/1980,,,Validity,Invalid format or value
+570,Emily,Garcia,emily.garcia@mail.com,22/08/1955,4.47284E+11,58422,Uniqueness,Duplicate CustomerID
+42,Emily,Brown,,11/02/1998,12345,ABCDE,Validity,Invalid format or value
+77,Jane,Wilson,,05/01/1981,4.4E+11,ABCDE,Validity,Invalid format or value
+908,James,Wilson,invalid@,28/09/1985,,,Validity,Invalid format or value
+999,Anna,Smith,anna.smith@demo.net,27/02/2026,4.47091E+11,62235,Consistency,Date of birth is after current date
+734,Sarah,Miller,,25/05/1960,4.47102E+11,,Completeness,Missing mandatory field(s)
+846,John,Jones,john.jones@example.com,29/07/2026,4.47482E+11,89498,Consistency,Date of birth is after current date
+821,Sarah,Garcia,user@@domain.com,15/12/1989,4.4E+11,9999999999,Validity,Invalid format or value
+607,Anna,Miller,anna.miller@mail.com,22/01/1967,4.47667E+11,42850,Uniqueness,Duplicate CustomerID
+468,John,Brown,,25/09/1985,4.47997E+11,20084,Completeness,Missing mandatory field(s)
+652,Michael,Jones,user@@domain.com,26/06/1992,12345,,Validity,Invalid format or value
+970,Laura,Brown,,08/11/1952,4.47613E+11,94115,Completeness,Missing mandatory field(s)
+428,James,Brown,james.brown@example.com,28/07/1962,4.47541E+11,47914,Uniqueness,Duplicate CustomerID
+173,Anna,Wilson,,02/05/1963,,80592,Completeness,Missing mandatory field(s)
+964,John,Rodriguez,john.rodriguez@demo.net,01/03/2027,4.47948E+11,12453,Consistency,Date of birth is after current date
+182,David,Brown,david.brown@test.org,13/04/1964,4.47845E+11,24168,Uniqueness,Duplicate CustomerID
+17,Sarah,Rodriguez,sarah.rodriguez@test.org,31/05/1957,4.47781E+11,65640,Uniqueness,Duplicate CustomerID
+110,Chris,Davis,chris.davis@test.org,07/05/1957,4.47505E+11,,Completeness,Missing mandatory field(s)
+26,James,Wilson,user@@domain.com,18/09/1963,4.4E+11,ABCDE,Validity,Invalid format or value
+589,Anna,Brown,invalid@,15/01/1983,,9999999999,Validity,Invalid format or value
+495,James,Rodriguez,james.rodriguez@demo.net,16/07/1964,4.47877E+11,36174,Uniqueness,Duplicate CustomerID
+276,David,Jones,user@@domain.com,27/01/2004,4.4E+11,,Validity,Invalid format or value
+10,Anna,Brown,anna.brown@example.com,10/02/1954,4.4771E+11,,Completeness,Missing mandatory field(s)
+627,John,Miller,noatsign.com,15/09/1961,4.4E+11,,Validity,Invalid format or value
+247,Emily,Rodriguez,emily.rodriguez@demo.net,07/03/1986,4.47877E+11,40801,Uniqueness,Duplicate CustomerID
+31,James,Williams,james.williams@test.org,30/11/2025,4.47937E+11,89507,Consistency,Date of birth is after current date
+893,Laura,Wilson,laura.wilson@example.com,22/09/2026,4.47045E+11,73214,Consistency,Date of birth is after current date
+332,James,Rodriguez,james.rodriguez@test.org,04/06/2026,4.47914E+11,30644,Consistency,Date of birth is after current date
+236,David,Smith,david.smith@test.org,23/04/2026,4.47335E+11,56090,Consistency,Date of birth is after current date
+591,John,Brown,john.brown@test.org,13/12/2025,4.4736E+11,10191,Consistency,Date of birth is after current date
+300,Anna,Garcia,anna.garcia@example.com,09/11/2025,4.47898E+11,75513,Consistency,Date of birth is after current date
+78,David,Wilson,david.wilson@example.com,30/07/2026,4.47966E+11,85574,Consistency,Date of birth is after current date
+90,Emily,Garcia,emily.garcia@example.com,10/11/1990,4.47445E+11,92544,Uniqueness,Duplicate CustomerID
+852,Michael,Garcia,michael.garcia@example.com,04/09/1997,4.4754E+11,,Completeness,Missing mandatory field(s)
+184,Chris,Brown,invalid@,07/12/1988,12345,,Validity,Invalid format or value
+939,Chris,Johnson,user@@domain.com,02/06/2005,,9999999999,Validity,Invalid format or value
+430,Sarah,Brown,noatsign.com,08/11/1962,,,Validity,Invalid format or value
+307,Sarah,Johnson,sarah.johnson@test.org,06/01/2026,4.47787E+11,96127,Consistency,Date of birth is after current date
+538,Sarah,Brown,,29/11/1993,4.4E+11,ABCDE,Validity,Invalid format or value
+232,Sarah,Davis,sarah.davis@test.org,13/11/1972,,30006,Completeness,Missing mandatory field(s)
+960,Laura,Garcia,laura.garcia@test.org,10/09/1998,4.47748E+11,74237,Uniqueness,Duplicate CustomerID
+61,James,Williams,james.williams@test.org,23/03/2026,4.47649E+11,37607,Consistency,Date of birth is after current date
+775,Emily,Rodriguez,noatsign.com,07/03/1982,12345,,Validity,Invalid format or value
+121,Laura,Johnson,,30/06/1982,,70258,Completeness,Missing mandatory field(s)
+678,Jane,Jones,user@@domain.com,03/03/1962,12345,9999999999,Validity,Invalid format or value
+382,Emily,Garcia,emily.garcia@test.org,17/01/1993,4.47375E+11,83464,Completeness,Missing mandatory field(s)
+370,James,Garcia,james.garcia@test.org,09/08/1992,4.47876E+11,12180,Completeness,Missing mandatory field(s)
+212,Laura,Wilson,laura.wilson@demo.net,05/02/1975,4.47035E+11,58566,Uniqueness,Duplicate CustomerID
+297,Laura,Garcia,laura.garcia@example.com,15/02/2027,4.4702E+11,43544,Consistency,Date of birth is after current date
+693,Laura,Johnson,invalid@,21/10/1974,12345,9999999999,Validity,Invalid format or value
+797,John,Rodriguez,john.rodriguez@demo.net,13/05/1958,4.47241E+11,24871,Uniqueness,Duplicate CustomerID
+850,Jane,Brown,invalid@,31/07/1984,,ABCDE,Validity,Invalid format or value
+226,David,Davis,david.davis@example.com,26/12/1993,4.47765E+11,68138,Uniqueness,Duplicate CustomerID
+473,Chris,Garcia,chris.garcia@demo.net,20/06/1970,4.47382E+11,82487,Uniqueness,Duplicate CustomerID
+640,Michael,Davis,noatsign.com,23/12/1983,abcdefghij,9999999999,Validity,Invalid format or value
+923,James,Johnson,james.johnson@example.com,19/07/1973,4.47664E+11,30352,Uniqueness,Duplicate CustomerID
+303,Emily,Wilson,,21/10/1966,4.47713E+11,,Completeness,Missing mandatory field(s)
+726,James,Wilson,james.wilson@example.com,13/05/1975,4.47122E+11,23928,Uniqueness,Duplicate CustomerID
+444,Sarah,Jones,,07/04/1982,4.47551E+11,,Completeness,Missing mandatory field(s)
+390,Jane,Williams,jane.williams@example.com,17/05/1999,4.47998E+11,30701,Completeness,Missing mandatory field(s)
+611,Laura,Smith,laura.smith@mail.com,27/06/2001,,61773,Completeness,Missing mandatory field(s)
+534,John,Wilson,,02/10/1997,,,Completeness,Missing mandatory field(s)
+529,James,Miller,james.miller@example.com,05/03/2026,4.47587E+11,38644,Consistency,Date of birth is after current date
+607,Jane,Smith,invalid@,10/12/1969,,9999999999,Validity,Invalid format or value
+676,Emily,Garcia,,13/07/1986,4.47796E+11,73499,Completeness,Missing mandatory field(s)
+568,James,Davis,james.davis@demo.net,02/02/1986,4.47089E+11,,Completeness,Missing mandatory field(s)
+730,John,Smith,john.smith@example.com,28/11/1959,,85255,Completeness,Missing mandatory field(s)
+265,Anna,Garcia,anna.garcia@test.org,13/05/1978,4.47162E+11,67640,Completeness,Missing mandatory field(s)
+393,Emily,Rodriguez,noatsign.com,15/09/1965,abcdefghij,9999999999,Validity,Invalid format or value
+98,Jane,Jones,jane.jones@mail.com,18/05/1974,4.47361E+11,51904,Uniqueness,Duplicate CustomerID
+208,Chris,Davis,chris.davis@example.com,17/07/1962,4.47049E+11,14877,Completeness,Missing mandatory field(s)
+906,Michael,Garcia,michael.garcia@example.com,05/11/1965,4.47453E+11,75483,Uniqueness,Duplicate CustomerID
+907,Michael,Rodriguez,michael.rodriguez@test.org,28/08/1993,,,Completeness,Missing mandatory field(s)
+40,David,Miller,david.miller@mail.com,10/07/2000,4.47586E+11,38039,Uniqueness,Duplicate CustomerID
+584,David,Miller,user@@domain.com,27/12/1956,,,Validity,Invalid format or value
+216,Anna,Smith,anna.smith@example.com,07/12/2025,4.47262E+11,26505,Consistency,Date of birth is after current date
+355,Sarah,Wilson,,12/01/1967,,30885,Completeness,Missing mandatory field(s)
+600,Laura,Garcia,,21/06/1986,4.4713E+11,,Completeness,Missing mandatory field(s)
+658,David,Wilson,invalid@,01/09/1999,12345,ABCDE,Validity,Invalid format or value
+253,Laura,Davis,laura.davis@mail.com,04/08/1961,4.47408E+11,79806,Uniqueness,Duplicate CustomerID
+386,Laura,Brown,invalid@,27/04/1998,abcdefghij,ABCDE,Validity,Invalid format or value
+603,John,Brown,invalid@,23/04/1963,,,Validity,Invalid format or value
+106,David,Williams,david.williams@demo.net,14/06/1961,4.47668E+11,80008,Uniqueness,Duplicate CustomerID
+79,Emily,Jones,emily.jones@example.com,30/09/2026,4.47002E+11,78146,Consistency,Date of birth is after current date
+828,James,Johnson,james.johnson@demo.net,23/08/2026,4.47539E+11,11388,Consistency,Date of birth is after current date
+488,Chris,Smith,chris.smith@demo.net,22/10/1979,4.47904E+11,,Completeness,Missing mandatory field(s)
+430,Sarah,Brown,,08/11/1962,4.47709E+11,78321,Completeness,Missing mandatory field(s)
+496,Michael,Jones,michael.jones@mail.com,04/01/2026,4.47707E+11,30203,Consistency,Date of birth is after current date
+299,Jane,Garcia,jane.garcia@mail.com,12/11/1976,4.4797E+11,13794,Uniqueness,Duplicate CustomerID
+590,Emily,Rodriguez,emily.rodriguez@mail.com,02/02/2026,4.47007E+11,63744,Consistency,Date of birth is after current date
+948,Emily,Smith,emily.smith@mail.com,12/04/2026,4.4779E+11,22315,Consistency,Date of birth is after current date
+780,Emily,Miller,emily.miller@test.org,26/07/1961,4.4711E+11,60272,Uniqueness,Duplicate CustomerID
+461,Jane,Miller,jane.miller@demo.net,07/03/1991,4.47607E+11,41877,Uniqueness,Duplicate CustomerID
+446,James,Williams,james.williams@mail.com,05/12/1993,4.4731E+11,28388,Uniqueness,Duplicate CustomerID
+766,David,Wilson,noatsign.com,19/07/1974,4.4E+11,,Validity,Invalid format or value
+693,Jane,Jones,jane.jones@demo.net,14/09/1957,4.47125E+11,28569,Uniqueness,Duplicate CustomerID
+669,Chris,Rodriguez,chris.rodriguez@test.org,13/04/2026,4.47284E+11,60206,Consistency,Date of birth is after current date
+535,James,Williams,invalid@,03/04/1976,4.4E+11,9999999999,Validity,Invalid format or value
+783,Chris,Williams,chris.williams@mail.com,24/05/2002,4.47908E+11,,Completeness,Missing mandatory field(s)
+142,John,Williams,invalid@,30/06/2000,4.4E+11,ABCDE,Validity,Invalid format or value
+693,Laura,Johnson,laura.johnson@test.org,18/12/2026,4.47688E+11,52616,Consistency,Date of birth is after current date
+248,David,Garcia,david.garcia@demo.net,04/01/2027,4.47293E+11,38255,Consistency,Date of birth is after current date
+649,John,Davis,invalid@,12/10/1963,4.4E+11,,Validity,Invalid format or value
+796,Emily,Miller,,11/08/1958,,9999999999,Validity,Invalid format or value
+809,Michael,Johnson,michael.johnson@example.com,14/06/1950,4.47615E+11,88204,Uniqueness,Duplicate CustomerID
+434,Chris,Davis,chris.davis@mail.com,05/04/1998,4.47508E+11,41584,Completeness,Missing mandatory field(s)
+374,James,Wilson,james.wilson@demo.net,05/04/1963,4.47882E+11,99224,Uniqueness,Duplicate CustomerID
+287,Anna,Garcia,anna.garcia@demo.net,15/02/2027,4.47836E+11,60052,Consistency,Date of birth is after current date
+695,Emily,Smith,invalid@,03/09/1978,12345,9999999999,Validity,Invalid format or value
+181,Sarah,Wilson,sarah.wilson@demo.net,16/03/1957,4.47915E+11,53065,Uniqueness,Duplicate CustomerID
+651,Anna,Garcia,anna.garcia@mail.com,14/09/1958,,,Completeness,Missing mandatory field(s)
+131,Chris,Wilson,chris.wilson@test.org,16/06/1992,4.47594E+11,79588,Uniqueness,Duplicate CustomerID
+435,Emily,Jones,,17/07/1991,abcdefghij,,Validity,Invalid format or value
+838,Anna,Smith,anna.smith@mail.com,03/10/2026,4.47178E+11,40145,Consistency,Date of birth is after current date
+297,Laura,Garcia,,09/02/1957,12345,,Validity,Invalid format or value
+741,Sarah,Wilson,sarah.wilson@example.com,08/05/2026,4.47519E+11,73979,Consistency,Date of birth is after current date
+561,James,Brown,james.brown@mail.com,15/06/2003,4.47938E+11,20730,Uniqueness,Duplicate CustomerID
+784,John,Miller,john.miller@demo.net,21/11/1963,,,Completeness,Missing mandatory field(s)
+871,David,Wilson,invalid@,08/08/2003,12345,9999999999,Validity,Invalid format or value
+522,Emily,Jones,emily.jones@test.org,06/04/1978,4.47994E+11,61505,Uniqueness,Duplicate CustomerID
+789,Emily,Miller,emily.miller@test.org,15/05/1982,4.47315E+11,38632,Completeness,Missing mandatory field(s)
+484,Chris,Jones,noatsign.com,29/03/1994,12345,,Validity,Invalid format or value
+50,Anna,Garcia,anna.garcia@mail.com,07/02/1955,4.47545E+11,,Completeness,Missing mandatory field(s)
+671,Jane,Miller,jane.miller@example.com,12/10/2002,4.47595E+11,40161,Uniqueness,Duplicate CustomerID
+500,Sarah,Williams,sarah.williams@example.com,16/11/2026,4.47693E+11,98797,Consistency,Date of birth is after current date
+140,Michael,Smith,michael.smith@test.org,18/09/2026,4.47123E+11,18564,Consistency,Date of birth is after current date
+995,James,Smith,james.smith@test.org,21/01/2027,4.47607E+11,29605,Consistency,Date of birth is after current date
+916,David,Wilson,invalid@,26/05/1956,,ABCDE,Validity,Invalid format or value
+657,Michael,Johnson,michael.johnson@example.com,19/09/2026,4.47868E+11,80968,Consistency,Date of birth is after current date
+277,Sarah,Johnson,sarah.johnson@mail.com,20/05/1981,4.47333E+11,95990,Completeness,Missing mandatory field(s)
+661,James,Wilson,james.wilson@mail.com,16/09/2026,4.47813E+11,68856,Consistency,Date of birth is after current date
+837,James,Davis,james.davis@test.org,11/02/2026,4.47523E+11,73191,Consistency,Date of birth is after current date
+891,Emily,Miller,emily.miller@test.org,26/02/1964,4.4747E+11,81200,Uniqueness,Duplicate CustomerID
+601,Sarah,Brown,invalid@,29/08/1977,abcdefghij,9999999999,Validity,Invalid format or value
+433,Sarah,Davis,sarah.davis@test.org,09/05/1987,,29558,Completeness,Missing mandatory field(s)
+918,Chris,Wilson,chris.wilson@demo.net,30/08/2026,4.47953E+11,68313,Consistency,Date of birth is after current date
+76,Jane,Jones,jane.jones@mail.com,01/02/2002,4.47285E+11,,Completeness,Missing mandatory field(s)
+40,David,Miller,david.miller@demo.net,05/04/2026,4.47501E+11,17100,Consistency,Date of birth is after current date
+319,Anna,Davis,anna.davis@mail.com,12/07/2026,4.47377E+11,68606,Consistency,Date of birth is after current date
+255,David,Smith,david.smith@demo.net,26/12/1956,,,Completeness,Missing mandatory field(s)
+276,David,Jones,david.jones@test.org,30/01/2026,4.47938E+11,29709,Consistency,Date of birth is after current date
+647,Sarah,Brown,user@@domain.com,20/09/1986,4.4E+11,,Validity,Invalid format or value
+398,Sarah,Williams,user@@domain.com,30/01/1973,,9999999999,Validity,Invalid format or value
+776,Jane,Wilson,user@@domain.com,09/05/2000,,,Validity,Invalid format or value
+860,Emily,Miller,,02/07/1982,,,Completeness,Missing mandatory field(s)
+125,Emily,Garcia,emily.garcia@demo.net,07/03/1980,4.47031E+11,74789,Completeness,Missing mandatory field(s)
+635,John,Williams,john.williams@mail.com,27/06/1979,4.47384E+11,67372,Uniqueness,Duplicate CustomerID
+540,Jane,Davis,noatsign.com,10/02/1983,4.4E+11,ABCDE,Validity,Invalid format or value
+723,David,Johnson,noatsign.com,24/07/1992,4.4E+11,,Validity,Invalid format or value
+679,Anna,Smith,anna.smith@mail.com,26/01/2026,4.4794E+11,36309,Consistency,Date of birth is after current date
+17,Sarah,Brown,sarah.brown@demo.net,30/06/1985,4.4795E+11,94259,Uniqueness,Duplicate CustomerID
+904,Michael,Wilson,michael.wilson@mail.com,17/12/1958,4.47774E+11,45382,Completeness,Missing mandatory field(s)
+89,Chris,Brown,chris.brown@mail.com,12/08/2026,4.47026E+11,16057,Consistency,Date of birth is after current date
+362,James,Brown,,20/08/1999,4.4731E+11,,Completeness,Missing mandatory field(s)
+481,Sarah,Rodriguez,sarah.rodriguez@example.com,22/07/2003,,,Completeness,Missing mandatory field(s)
+294,Sarah,Brown,user@@domain.com,28/04/1957,abcdefghij,ABCDE,Validity,Invalid format or value
+101,James,Garcia,invalid@,03/08/1955,4.4E+11,9999999999,Validity,Invalid format or value
+566,John,Wilson,john.wilson@example.com,28/03/1951,4.47282E+11,38277,Completeness,Missing mandatory field(s)
+224,Laura,Rodriguez,laura.rodriguez@mail.com,08/03/2005,4.47047E+11,96363,Uniqueness,Duplicate CustomerID
+944,Chris,Garcia,chris.garcia@test.org,08/08/1991,4.47748E+11,,Completeness,Missing mandatory field(s)
+174,Laura,Miller,laura.miller@test.org,08/07/1999,4.47819E+11,,Completeness,Missing mandatory field(s)
+535,James,Williams,james.williams@test.org,21/09/2026,4.47311E+11,85069,Consistency,Date of birth is after current date
+249,James,Johnson,user@@domain.com,27/07/1988,abcdefghij,ABCDE,Validity,Invalid format or value
+94,Laura,Williams,laura.williams@demo.net,26/08/1997,,88047,Completeness,Missing mandatory field(s)
+80,James,Smith,james.smith@test.org,09/04/1972,4.47308E+11,22190,Uniqueness,Duplicate CustomerID
+137,James,Williams,james.williams@test.org,13/07/2026,4.47059E+11,82529,Consistency,Date of birth is after current date
+333,Michael,Miller,michael.miller@mail.com,01/05/2026,4.47216E+11,28202,Consistency,Date of birth is after current date
+33,Anna,Brown,anna.brown@demo.net,18/04/1960,4.47585E+11,39466,Uniqueness,Duplicate CustomerID
+67,David,Williams,david.williams@example.com,03/02/2026,4.47392E+11,15229,Consistency,Date of birth is after current date
+587,Chris,Miller,user@@domain.com,15/08/1999,abcdefghij,ABCDE,Validity,Invalid format or value
+513,Laura,Williams,laura.williams@test.org,12/07/1962,4.47265E+11,83579,Uniqueness,Duplicate CustomerID
+891,Chris,Brown,invalid@,11/03/1968,abcdefghij,ABCDE,Validity,Invalid format or value
+334,Emily,Garcia,emily.garcia@example.com,31/12/2025,4.47595E+11,85009,Consistency,Date of birth is after current date
+533,Michael,Wilson,michael.wilson@mail.com,15/07/1968,4.47874E+11,37124,Completeness,Missing mandatory field(s)
+142,John,Williams,john.williams@mail.com,26/03/2026,4.47326E+11,21164,Consistency,Date of birth is after current date
+326,Anna,Williams,anna.williams@test.org,16/09/1985,4.47338E+11,95139,Uniqueness,Duplicate CustomerID
+100,Michael,Brown,michael.brown@example.com,22/03/1987,4.47438E+11,,Completeness,Missing mandatory field(s)
+353,Laura,Brown,laura.brown@mail.com,08/09/1958,4.47054E+11,48038,Completeness,Missing mandatory field(s)
+351,Sarah,Davis,sarah.davis@mail.com,27/12/2025,4.47553E+11,83616,Consistency,Date of birth is after current date
+585,Jane,Rodriguez,invalid@,02/02/1966,12345,9999999999,Validity,Invalid format or value
+324,Sarah,Miller,noatsign.com,21/11/2000,4.4E+11,,Validity,Invalid format or value
+145,Chris,Wilson,,25/05/1977,,,Validity,Invalid format or value
+503,David,Williams,david.williams@example.com,23/08/1958,4.47563E+11,29516,Uniqueness,Duplicate CustomerID
+298,Emily,Williams,,23/12/1959,4.47833E+11,,Completeness,Missing mandatory field(s)
+745,David,Williams,david.williams@example.com,17/01/1951,,30568,Completeness,Missing mandatory field(s)
+247,Anna,Smith,anna.smith@example.com,31/05/1974,,,Completeness,Missing mandatory field(s)
+228,Michael,Jones,,04/03/1984,4.4E+11,9999999999,Validity,Invalid format or value
+220,Michael,Johnson,michael.johnson@example.com,28/10/1961,4.47016E+11,56955,Completeness,Missing mandatory field(s)
+514,Michael,Miller,michael.miller@test.org,29/08/2026,4.47491E+11,24936,Consistency,Date of birth is after current date
+463,David,Davis,david.davis@demo.net,21/02/2026,4.47684E+11,11238,Consistency,Date of birth is after current date
+504,James,Garcia,james.garcia@demo.net,24/11/1997,4.47307E+11,65363,Uniqueness,Duplicate CustomerID
+449,David,Wilson,david.wilson@mail.com,18/10/1994,4.47591E+11,,Completeness,Missing mandatory field(s)
+252,Michael,Jones,michael.jones@test.org,09/06/1979,4.47129E+11,,Completeness,Missing mandatory field(s)
+221,Emily,Wilson,emily.wilson@test.org,02/06/1951,,44782,Completeness,Missing mandatory field(s)
+956,Anna,Miller,,13/05/1955,12345,,Validity,Invalid format or value
+506,James,Garcia,,19/09/1992,12345,ABCDE,Validity,Invalid format or value
+620,John,Garcia,john.garcia@test.org,24/05/2002,4.4725E+11,,Completeness,Missing mandatory field(s)
+748,John,Rodriguez,john.rodriguez@test.org,21/02/1996,4.47862E+11,76680,Uniqueness,Duplicate CustomerID
+641,David,Johnson,user@@domain.com,10/11/2001,,ABCDE,Validity,Invalid format or value
+108,Chris,Brown,chris.brown@mail.com,11/03/1968,4.47897E+11,42728,Uniqueness,Duplicate CustomerID
+418,James,Williams,james.williams@test.org,03/04/1976,4.47311E+11,85069,Uniqueness,Duplicate CustomerID
+705,Jane,Rodriguez,jane.rodriguez@mail.com,10/12/1963,4.47576E+11,52827,Uniqueness,Duplicate CustomerID
+897,Laura,Garcia,laura.garcia@example.com,09/02/1957,4.4702E+11,43544,Uniqueness,Duplicate CustomerID
+583,Michael,Smith,michael.smith@demo.net,21/02/1970,4.47346E+11,42540,Uniqueness,Duplicate CustomerID
+248,David,Garcia,david.garcia@demo.net,27/02/1987,4.47293E+11,,Completeness,Missing mandatory field(s)
+835,Anna,Williams,anna.williams@demo.net,17/12/1983,4.47392E+11,,Completeness,Missing mandatory field(s)
+905,Emily,Rodriguez,emily.rodriguez@demo.net,25/03/2026,4.47211E+11,29116,Consistency,Date of birth is after current date
+713,James,Brown,,16/05/1950,4.47673E+11,42613,Completeness,Missing mandatory field(s)
+913,James,Williams,james.williams@test.org,10/11/1981,4.47349E+11,98236,Uniqueness,Duplicate CustomerID
+926,John,Smith,john.smith@test.org,26/01/2027,4.47928E+11,72410,Consistency,Date of birth is after current date
+308,Jane,Wilson,jane.wilson@test.org,31/10/2026,4.47048E+11,56176,Consistency,Date of birth is after current date
+823,Jane,Jones,jane.jones@mail.com,24/02/2027,4.47211E+11,44502,Consistency,Date of birth is after current date
+564,Sarah,Miller,sarah.miller@mail.com,14/09/1984,4.47924E+11,84498,Completeness,Missing mandatory field(s)
+38,Emily,Rodriguez,emily.rodriguez@mail.com,25/03/2001,4.47619E+11,71953,Uniqueness,Duplicate CustomerID
+259,Emily,Davis,user@@domain.com,03/01/1997,4.4E+11,ABCDE,Validity,Invalid format or value
+212,Laura,Wilson,laura.wilson@mail.com,12/12/1980,4.47026E+11,73277,Uniqueness,Duplicate CustomerID
+647,Sarah,Brown,sarah.brown@mail.com,20/09/1986,,82628,Completeness,Missing mandatory field(s)
+721,Chris,Rodriguez,chris.rodriguez@example.com,14/04/2003,4.47051E+11,96765,Completeness,Missing mandatory field(s)
+309,James,Miller,james.miller@mail.com,07/09/1991,4.47747E+11,72722,Uniqueness,Duplicate CustomerID
+996,Sarah,Rodriguez,sarah.rodriguez@mail.com,13/02/2026,4.47054E+11,98294,Consistency,Date of birth is after current date
+530,David,Johnson,david.johnson@mail.com,16/09/1976,4.47939E+11,14224,Uniqueness,Duplicate CustomerID
+827,Emily,Wilson,emily.wilson@test.org,05/01/1962,,75683,Completeness,Missing mandatory field(s)
+561,Chris,Brown,chris.brown@mail.com,22/02/1985,4.47317E+11,94694,Uniqueness,Duplicate CustomerID
+345,Anna,Miller,anna.miller@example.com,18/07/1952,4.47087E+11,15958,Uniqueness,Duplicate CustomerID
+522,Michael,Miller,michael.miller@demo.net,27/01/2026,4.47058E+11,57059,Consistency,Date of birth is after current date
+731,Laura,Williams,laura.williams@example.com,28/11/1995,,23276,Completeness,Missing mandatory field(s)
+187,David,Williams,david.williams@mail.com,27/08/1997,4.47442E+11,84177,Uniqueness,Duplicate CustomerID
+39,Chris,Davis,chris.davis@test.org,07/05/1957,4.47505E+11,12540,Uniqueness,Duplicate CustomerID
+417,Jane,Rodriguez,invalid@,11/03/1956,,9999999999,Validity,Invalid format or value
+924,James,Rodriguez,james.rodriguez@demo.net,15/09/1986,4.47735E+11,74451,Uniqueness,Duplicate CustomerID
+953,Michael,Jones,michael.jones@example.com,05/07/1985,,41862,Completeness,Missing mandatory field(s)
+833,David,Garcia,david.garcia@demo.net,02/03/1954,4.47043E+11,,Completeness,Missing mandatory field(s)
+111,James,Smith,james.smith@test.org,01/07/2026,4.47698E+11,18993,Consistency,Date of birth is after current date
+560,Anna,Wilson,anna.wilson@test.org,03/01/2027,4.4791E+11,96298,Consistency,Date of birth is after current date
+867,James,Davis,,25/05/1999,4.47659E+11,99727,Completeness,Missing mandatory field(s)
+531,Laura,Jones,,21/10/1957,,,Completeness,Missing mandatory field(s)
+765,Chris,Rodriguez,chris.rodriguez@demo.net,19/06/1971,4.47295E+11,67654,Uniqueness,Duplicate CustomerID
+974,Sarah,Smith,user@@domain.com,17/06/1997,abcdefghij,ABCDE,Validity,Invalid format or value
+383,Chris,Jones,chris.jones@example.com,26/10/2026,4.47727E+11,81197,Consistency,Date of birth is after current date
+186,John,Miller,noatsign.com,27/04/1976,12345,9999999999,Validity,Invalid format or value
+671,David,Williams,david.williams@demo.net,09/12/2026,4.47425E+11,53449,Consistency,Date of birth is after current date
+457,James,Davis,james.davis@example.com,03/07/1951,4.47568E+11,46010,Completeness,Missing mandatory field(s)
+260,Chris,Miller,noatsign.com,18/11/1979,abcdefghij,9999999999,Validity,Invalid format or value
+544,Anna,Williams,anna.williams@demo.net,11/04/2026,4.4796E+11,99463,Consistency,Date of birth is after current date
+43,David,Williams,,04/07/1991,4.47268E+11,19880,Completeness,Missing mandatory field(s)
+850,Jane,Brown,jane.brown@demo.net,15/09/2026,4.47142E+11,24230,Consistency,Date of birth is after current date
+167,John,Rodriguez,john.rodriguez@demo.net,13/05/1958,4.47241E+11,,Completeness,Missing mandatory field(s)
+553,Michael,Garcia,,17/07/1970,4.47411E+11,,Completeness,Missing mandatory field(s)
+511,David,Davis,david.davis@example.com,04/02/2005,,,Completeness,Missing mandatory field(s)
+894,Sarah,Wilson,sarah.wilson@test.org,02/12/2025,4.47964E+11,85303,Consistency,Date of birth is after current date
+263,Chris,Brown,chris.brown@mail.com,17/01/2004,4.47164E+11,,Completeness,Missing mandatory field(s)
+543,Michael,Miller,michael.miller@mail.com,30/10/1995,4.47417E+11,64819,Uniqueness,Duplicate CustomerID
+56,Anna,Wilson,anna.wilson@example.com,05/07/2026,4.47577E+11,37938,Consistency,Date of birth is after current date
+556,Anna,Smith,anna.smith@mail.com,26/06/1989,,37925,Completeness,Missing mandatory field(s)
+866,Jane,Brown,jane.brown@demo.net,27/10/2025,4.47108E+11,38109,Consistency,Date of birth is after current date
+903,Sarah,Davis,sarah.davis@test.org,31/03/2026,4.47193E+11,84895,Consistency,Date of birth is after current date
+545,John,Smith,noatsign.com,26/03/1991,abcdefghij,,Validity,Invalid format or value
+200,Sarah,Davis,sarah.davis@mail.com,27/12/2025,4.47142E+11,80701,Consistency,Date of birth is after current date
+541,Sarah,Wilson,,11/05/1958,4.47785E+11,,Completeness,Missing mandatory field(s)
+900,Sarah,Miller,user@@domain.com,16/10/1966,4.4E+11,ABCDE,Validity,Invalid format or value
+311,Emily,Smith,emily.smith@mail.com,03/09/2026,4.47339E+11,50642,Consistency,Date of birth is after current date
+900,Sarah,Miller,sarah.miller@test.org,16/10/1966,4.47589E+11,44452,Uniqueness,Duplicate CustomerID
+45,John,Johnson,john.johnson@mail.com,23/06/2026,4.47436E+11,73653,Consistency,Date of birth is after current date
+990,David,Wilson,david.wilson@mail.com,08/03/2026,4.47777E+11,52558,Consistency,Date of birth is after current date
+627,John,Miller,john.miller@mail.com,01/08/2026,4.47366E+11,33260,Consistency,Date of birth is after current date
+680,John,Brown,john.brown@example.com,13/12/1990,4.47054E+11,57235,Uniqueness,Duplicate CustomerID
+238,Emily,Johnson,emily.johnson@test.org,27/11/1999,,25058,Completeness,Missing mandatory field(s)
+742,Jane,Davis,jane.davis@demo.net,23/03/2026,4.47068E+11,44290,Consistency,Date of birth is after current date
+970,Laura,Brown,user@@domain.com,08/11/1952,abcdefghij,,Validity,Invalid format or value
+155,Laura,Johnson,user@@domain.com,04/10/1988,4.4E+11,,Validity,Invalid format or value
+193,Emily,Davis,emily.davis@demo.net,16/11/2026,4.47255E+11,59986,Consistency,Date of birth is after current date
+915,Chris,Garcia,chris.garcia@mail.com,21/01/2026,4.47688E+11,54222,Consistency,Date of birth is after current date
+838,Anna,Smith,user@@domain.com,19/06/1989,12345,,Validity,Invalid format or value
+34,Jane,Miller,jane.miller@example.com,26/12/2025,4.47595E+11,40161,Consistency,Date of birth is after current date
+306,John,Davis,john.davis@test.org,27/12/2025,4.47802E+11,12128,Consistency,Date of birth is after current date
+973,Jane,Garcia,noatsign.com,19/05/1982,abcdefghij,ABCDE,Validity,Invalid format or value
+626,Laura,Rodriguez,laura.rodriguez@test.org,19/03/1999,4.47478E+11,27709,Uniqueness,Duplicate CustomerID
+266,Jane,Garcia,jane.garcia@demo.net,03/05/2026,4.47855E+11,46002,Consistency,Date of birth is after current date
+713,James,Brown,,16/05/1950,12345,,Validity,Invalid format or value
+244,John,Johnson,invalid@,02/10/1983,,9999999999,Validity,Invalid format or value
+138,Chris,Williams,chris.williams@demo.net,15/02/2027,4.47937E+11,11607,Consistency,Date of birth is after current date
+97,Chris,Rodriguez,chris.rodriguez@demo.net,02/09/2026,4.47295E+11,67654,Consistency,Date of birth is after current date
+627,John,Miller,john.miller@mail.com,15/09/1961,4.47366E+11,33260,Uniqueness,Duplicate CustomerID
+169,James,Jones,james.jones@demo.net,09/10/2026,4.47507E+11,41946,Consistency,Date of birth is after current date
+428,Jane,Brown,jane.brown@demo.net,07/07/1964,4.47108E+11,38109,Uniqueness,Duplicate CustomerID
+618,Laura,Miller,laura.miller@test.org,14/12/2025,4.4729E+11,33568,Consistency,Date of birth is after current date
+926,John,Smith,,06/03/1979,4.47928E+11,72410,Completeness,Missing mandatory field(s)
+754,John,Brown,john.brown@demo.net,14/10/1979,,,Completeness,Missing mandatory field(s)
+662,Michael,Williams,user@@domain.com,17/04/1967,4.4E+11,9999999999,Validity,Invalid format or value
+577,John,Miller,invalid@,27/05/1974,12345,,Validity,Invalid format or value
+211,David,Wilson,david.wilson@mail.com,22/05/2026,4.47703E+11,22978,Consistency,Date of birth is after current date
+447,Michael,Smith,michael.smith@test.org,22/08/1999,4.47627E+11,85909,Completeness,Missing mandatory field(s)
+609,John,Wilson,john.wilson@test.org,02/10/1997,4.47302E+11,88231,Uniqueness,Duplicate CustomerID
+545,James,Davis,james.davis@demo.net,22/09/1972,4.47039E+11,94790,Uniqueness,Duplicate CustomerID
+462,David,Williams,david.williams@mail.com,28/02/1980,4.47089E+11,72371,Uniqueness,Duplicate CustomerID
+471,James,Miller,james.miller@example.com,06/10/1958,4.47469E+11,40427,Uniqueness,Duplicate CustomerID
+977,Emily,Wilson,user@@domain.com,06/02/2000,,9999999999,Validity,Invalid format or value
+694,Chris,Jones,chris.jones@test.org,25/11/1966,4.47161E+11,,Completeness,Missing mandatory field(s)
+880,Anna,Smith,anna.smith@test.org,05/01/2026,4.47437E+11,76353,Consistency,Date of birth is after current date
+863,Laura,Williams,laura.williams@test.org,28/02/2000,4.47596E+11,73407,Uniqueness,Duplicate CustomerID
+471,Jane,Rodriguez,jane.rodriguez@example.com,23/06/2005,4.47068E+11,86756,Uniqueness,Duplicate CustomerID
+795,Laura,Garcia,noatsign.com,05/08/1976,12345,9999999999,Validity,Invalid format or value
+502,Chris,Brown,user@@domain.com,29/12/1989,,,Validity,Invalid format or value
+71,David,Brown,,13/04/1964,4.47845E+11,24168,Completeness,Missing mandatory field(s)
+34,Jane,Miller,,12/10/2002,,ABCDE,Validity,Invalid format or value
+342,Jane,Jones,jane.jones@mail.com,02/06/1999,4.47295E+11,26406,Uniqueness,Duplicate CustomerID
+351,Sarah,Davis,sarah.davis@mail.com,30/03/1983,4.47553E+11,83616,Uniqueness,Duplicate CustomerID
+373,Anna,Brown,,08/05/2002,12345,9999999999,Validity,Invalid format or value
+98,Michael,Miller,michael.miller@demo.net,27/07/2005,4.47058E+11,57059,Uniqueness,Duplicate CustomerID
+886,Emily,Brown,emily.brown@test.org,01/01/1987,,77699,Completeness,Missing mandatory field(s)
+762,James,Williams,james.williams@demo.net,03/02/2027,4.47569E+11,16366,Consistency,Date of birth is after current date
+567,John,Smith,john.smith@demo.net,14/06/1995,4.47308E+11,92388,Uniqueness,Duplicate CustomerID
+603,John,Brown,john.brown@test.org,23/04/1963,,42534,Completeness,Missing mandatory field(s)
+4,James,Brown,james.brown@test.org,10/09/1988,4.47075E+11,97062,Uniqueness,Duplicate CustomerID
+205,Chris,Wilson,,30/04/1983,4.47116E+11,98452,Completeness,Missing mandatory field(s)
+727,Laura,Brown,laura.brown@mail.com,05/08/1973,4.47893E+11,78569,Completeness,Missing mandatory field(s)
+68,Sarah,Brown,sarah.brown@mail.com,24/07/2026,4.4738E+11,83385,Consistency,Date of birth is after current date
+55,Chris,Garcia,chris.garcia@test.org,31/08/2026,4.4701E+11,70068,Consistency,Date of birth is after current date
+5,Laura,Wilson,laura.wilson@test.org,01/08/1950,4.47815E+11,30926,Uniqueness,Duplicate CustomerID
+813,Anna,Smith,anna.smith@demo.net,25/04/1999,,,Completeness,Missing mandatory field(s)
+932,Sarah,Jones,,03/01/1998,4.47009E+11,,Completeness,Missing mandatory field(s)
+453,John,Smith,john.smith@demo.net,03/05/1962,,92667,Completeness,Missing mandatory field(s)
+112,John,Smith,john.smith@mail.com,20/11/1967,,12671,Completeness,Missing mandatory field(s)
+803,Jane,Rodriguez,,23/06/2005,4.47068E+11,86756,Completeness,Missing mandatory field(s)
+968,Sarah,Johnson,sarah.johnson@example.com,09/12/1996,,,Completeness,Missing mandatory field(s)
+637,Michael,Johnson,michael.johnson@test.org,23/11/2025,4.47012E+11,44761,Consistency,Date of birth is after current date
+378,James,Brown,james.brown@test.org,02/11/2025,4.47564E+11,59391,Consistency,Date of birth is after current date
+331,Laura,Johnson,laura.johnson@test.org,03/03/1981,4.47762E+11,18511,Completeness,Missing mandatory field(s)
+567,John,Smith,noatsign.com,14/06/1995,abcdefghij,ABCDE,Validity,Invalid format or value
+927,David,Miller,david.miller@test.org,13/12/1963,4.47231E+11,54118,Uniqueness,Duplicate CustomerID
+50,Anna,Garcia,anna.garcia@mail.com,03/10/2026,4.47545E+11,20500,Consistency,Date of birth is after current date
+6,Chris,Miller,chris.miller@example.com,15/08/1999,4.4749E+11,11044,Uniqueness,Duplicate CustomerID
+945,Sarah,Johnson,user@@domain.com,11/01/1955,,,Validity,Invalid format or value
+238,Emily,Johnson,emily.johnson@test.org,27/11/1999,4.47395E+11,25058,Uniqueness,Duplicate CustomerID
+803,Jane,Davis,jane.davis@demo.net,15/02/1954,4.47068E+11,44290,Uniqueness,Duplicate CustomerID
+879,David,Williams,david.williams@demo.net,24/06/1953,4.47425E+11,53449,Uniqueness,Duplicate CustomerID
+15,James,Brown,james.brown@test.org,07/01/1955,4.47246E+11,14207,Uniqueness,Duplicate CustomerID
+255,David,Smith,david.smith@demo.net,03/09/2026,4.47926E+11,51033,Consistency,Date of birth is after current date
+336,Jane,Jones,jane.jones@demo.net,10/12/1992,4.47564E+11,63843,Uniqueness,Duplicate CustomerID
+954,John,Smith,john.smith@demo.net,28/06/2003,4.47166E+11,58679,Uniqueness,Duplicate CustomerID
+948,John,Wilson,john.wilson@test.org,16/10/1961,4.47097E+11,48680,Uniqueness,Duplicate CustomerID
+37,Jane,Rodriguez,user@@domain.com,26/12/1974,4.4E+11,ABCDE,Validity,Invalid format or value
+680,John,Brown,john.brown@example.com,13/12/1990,,57235,Completeness,Missing mandatory field(s)
+651,Anna,Garcia,anna.garcia@mail.com,06/01/2026,4.47028E+11,37125,Consistency,Date of birth is after current date
+85,Chris,Jones,chris.jones@mail.com,17/07/2026,4.47844E+11,86019,Consistency,Date of birth is after current date
+849,Chris,Williams,chris.williams@test.org,07/09/1990,4.47641E+11,87410,Uniqueness,Duplicate CustomerID
+119,Anna,Smith,user@@domain.com,17/10/1997,12345,9999999999,Validity,Invalid format or value
+470,James,Miller,james.miller@demo.net,22/07/1962,4.47849E+11,20279,Uniqueness,Duplicate CustomerID
+747,Sarah,Brown,sarah.brown@test.org,15/12/1974,4.47054E+11,76444,Completeness,Missing mandatory field(s)
+116,Anna,Smith,anna.smith@test.org,28/08/2001,,59192,Completeness,Missing mandatory field(s)
+293,Sarah,Smith,sarah.smith@demo.net,05/06/2026,4.47426E+11,75799,Consistency,Date of birth is after current date
+817,Sarah,Garcia,sarah.garcia@demo.net,18/09/2026,4.47662E+11,96431,Consistency,Date of birth is after current date
+512,Michael,Brown,michael.brown@test.org,10/03/1982,4.47981E+11,87537,Uniqueness,Duplicate CustomerID
+774,Chris,Jones,user@@domain.com,26/07/1955,,,Validity,Invalid format or value
+894,Sarah,Wilson,sarah.wilson@test.org,04/03/1994,4.47964E+11,85303,Completeness,Missing mandatory field(s)
+636,Michael,Miller,michael.miller@example.com,17/11/2025,4.47372E+11,51879,Consistency,Date of birth is after current date
+87,Emily,Rodriguez,emily.rodriguez@demo.net,13/02/2027,4.47707E+11,21114,Consistency,Date of birth is after current date
+2,Jane,Rodriguez,,23/12/2002,4.47453E+11,14165,Completeness,Missing mandatory field(s)
+742,Jane,Smith,jane.smith@example.com,10/12/1969,4.4714E+11,35969,Uniqueness,Duplicate CustomerID
+439,John,Jones,john.jones@demo.net,10/04/2004,4.47647E+11,,Completeness,Missing mandatory field(s)
+103,John,Miller,john.miller@test.org,27/12/1984,4.47916E+11,64921,Completeness,Missing mandatory field(s)
+523,John,Garcia,john.garcia@mail.com,08/10/2026,4.47875E+11,60324,Consistency,Date of birth is after current date
+281,Laura,Brown,,05/05/1962,abcdefghij,ABCDE,Validity,Invalid format or value
+328,Laura,Rodriguez,laura.rodriguez@demo.net,01/09/2026,4.47126E+11,44311,Consistency,Date of birth is after current date
+674,Jane,Brown,jane.brown@mail.com,16/12/1976,4.47799E+11,68079,Completeness,Missing mandatory field(s)
+157,Anna,Wilson,invalid@,07/03/1974,12345,9999999999,Validity,Invalid format or value
+302,Michael,Jones,invalid@,21/02/1950,,ABCDE,Validity,Invalid format or value
+634,John,Wilson,,29/11/2000,12345,9999999999,Validity,Invalid format or value
+771,John,Miller,john.miller@demo.net,27/05/1974,4.47562E+11,18371,Uniqueness,Duplicate CustomerID
+831,David,Garcia,david.garcia@example.com,02/03/1992,4.47374E+11,63523,Uniqueness,Duplicate CustomerID
+664,Sarah,Wilson,sarah.wilson@mail.com,12/05/1967,4.47316E+11,68827,Uniqueness,Duplicate CustomerID
+788,Michael,Davis,michael.davis@demo.net,25/09/2026,4.47375E+11,38992,Consistency,Date of birth is after current date
+77,Jane,Wilson,jane.wilson@demo.net,19/02/2026,4.47782E+11,51114,Consistency,Date of birth is after current date
+6,David,Miller,david.miller@test.org,13/12/1963,4.47231E+11,54118,Completeness,Missing mandatory field(s)
+679,John,Smith,john.smith@example.com,26/03/1991,4.47017E+11,26284,Uniqueness,Duplicate CustomerID
+975,Chris,Johnson,chris.johnson@mail.com,31/05/2026,4.47104E+11,23267,Consistency,Date of birth is after current date
+313,Emily,Jones,emily.jones@test.org,31/12/2025,4.4793E+11,95948,Consistency,Date of birth is after current date
+400,Michael,Wilson,michael.wilson@demo.net,15/05/1988,,52982,Completeness,Missing mandatory field(s)
+690,Laura,Jones,laura.jones@mail.com,16/04/2026,4.47324E+11,98761,Consistency,Date of birth is after current date
+744,Anna,Johnson,,20/04/1972,4.47517E+11,55318,Completeness,Missing mandatory field(s)
+356,Laura,Rodriguez,invalid@,30/09/1994,,9999999999,Validity,Invalid format or value
+159,John,Williams,john.williams@mail.com,21/10/1952,4.47217E+11,24031,Uniqueness,Duplicate CustomerID
+227,Jane,Johnson,invalid@,28/07/2004,4.4E+11,9999999999,Validity,Invalid format or value
+717,Sarah,Davis,sarah.davis@mail.com,14/07/2026,4.47968E+11,74248,Consistency,Date of birth is after current date
+80,James,Brown,,10/09/1988,,97062,Completeness,Missing mandatory field(s)
+803,Jane,Rodriguez,jane.rodriguez@example.com,10/01/2027,4.47068E+11,86756,Consistency,Date of birth is after current date
+868,John,Williams,john.williams@demo.net,23/06/1950,4.47864E+11,21939,Completeness,Missing mandatory field(s)
+190,Laura,Jones,laura.jones@demo.net,27/11/1972,,11231,Completeness,Missing mandatory field(s)
+190,Laura,Jones,,27/11/1972,,9999999999,Validity,Invalid format or value
+263,Chris,Brown,,17/01/2004,4.4E+11,,Validity,Invalid format or value
+242,Sarah,Miller,sarah.miller@example.com,11/04/1966,4.47934E+11,28776,Uniqueness,Duplicate CustomerID
+260,Chris,Miller,chris.miller@mail.com,26/02/2026,4.47837E+11,32037,Consistency,Date of birth is after current date
+698,Emily,Miller,emily.miller@mail.com,18/12/1997,4.47685E+11,72355,Completeness,Missing mandatory field(s)
+264,Jane,Williams,noatsign.com,16/08/1991,12345,,Validity,Invalid format or value
+818,Chris,Wilson,invalid@,27/09/2000,12345,ABCDE,Validity,Invalid format or value
+143,Emily,Johnson,,24/05/2004,4.4E+11,ABCDE,Validity,Invalid format or value
+863,David,Brown,david.brown@demo.net,14/07/1999,4.47842E+11,83080,Uniqueness,Duplicate CustomerID
+816,Emily,Johnson,emily.johnson@test.org,31/07/2005,4.47075E+11,35362,Completeness,Missing mandatory field(s)
+35,Anna,Brown,user@@domain.com,15/05/1956,,,Validity,Invalid format or value
+442,Laura,Brown,,01/08/1985,abcdefghij,9999999999,Validity,Invalid format or value
+686,Emily,Brown,emily.brown@mail.com,21/02/1974,,63674,Completeness,Missing mandatory field(s)
+242,John,Miller,john.miller@mail.com,18/08/1952,4.47962E+11,46822,Uniqueness,Duplicate CustomerID
+975,Chris,Johnson,chris.johnson@mail.com,09/08/1996,4.47104E+11,23267,Completeness,Missing mandatory field(s)
+900,Sarah,Miller,sarah.miller@test.org,26/05/2026,4.47589E+11,44452,Consistency,Date of birth is after current date
+706,John,Williams,john.williams@mail.com,21/12/1967,4.47368E+11,,Completeness,Missing mandatory field(s)
+9,David,Johnson,noatsign.com,28/06/2005,,,Validity,Invalid format or value
+976,Emily,Rodriguez,emily.rodriguez@demo.net,22/07/2026,4.47207E+11,78969,Consistency,Date of birth is after current date
+678,Jane,Jones,jane.jones@demo.net,04/05/2026,4.47838E+11,78719,Consistency,Date of birth is after current date
+278,David,Williams,invalid@,10/10/1977,4.4E+11,,Validity,Invalid format or value
+372,John,Wilson,john.wilson@demo.net,26/09/2026,4.47704E+11,85821,Consistency,Date of birth is after current date
+584,David,Miller,david.miller@test.org,27/12/1956,4.47614E+11,,Completeness,Missing mandatory field(s)
+781,Michael,Johnson,michael.johnson@mail.com,04/08/1965,4.47789E+11,77350,Uniqueness,Duplicate CustomerID
+655,Sarah,Williams,invalid@,02/01/1954,12345,9999999999,Validity,Invalid format or value
+808,Michael,Jones,michael.jones@test.org,01/01/1951,4.47594E+11,,Completeness,Missing mandatory field(s)
+655,Sarah,Williams,,02/01/1954,4.47283E+11,67637,Completeness,Missing mandatory field(s)
+907,Jane,Jones,jane.jones@demo.net,03/03/1962,4.47838E+11,78719,Uniqueness,Duplicate CustomerID
+105,David,Garcia,noatsign.com,20/11/1984,12345,9999999999,Validity,Invalid format or value
+558,Michael,Johnson,michael.johnson@demo.net,04/10/2026,4.47461E+11,51222,Consistency,Date of birth is after current date
+591,John,Brown,john.brown@test.org,11/11/1950,4.4736E+11,10191,Uniqueness,Duplicate CustomerID
+219,John,Jones,john.jones@mail.com,10/10/2026,4.4758E+11,42853,Consistency,Date of birth is after current date
+923,Laura,Brown,laura.brown@mail.com,08/09/1958,4.47054E+11,48038,Uniqueness,Duplicate CustomerID
+71,David,Brown,david.brown@test.org,25/10/2025,4.47845E+11,24168,Consistency,Date of birth is after current date
+366,James,Johnson,james.johnson@test.org,27/07/1988,4.47119E+11,47125,Uniqueness,Duplicate CustomerID
+922,Laura,Rodriguez,,13/05/1952,,62037,Completeness,Missing mandatory field(s)
+243,Anna,Davis,,23/09/1962,,,Validity,Invalid format or value
+788,Michael,Davis,michael.davis@demo.net,01/04/1958,,38992,Completeness,Missing mandatory field(s)
+430,Sarah,Brown,sarah.brown@test.org,29/10/2025,4.47709E+11,78321,Consistency,Date of birth is after current date
+290,Sarah,Rodriguez,sarah.rodriguez@example.com,16/06/2026,4.47914E+11,26341,Consistency,Date of birth is after current date
+616,Michael,Davis,michael.davis@mail.com,04/03/1997,4.47268E+11,92674,Uniqueness,Duplicate CustomerID
+325,Michael,Garcia,,18/05/1983,4.47477E+11,,Completeness,Missing mandatory field(s)
+943,Michael,Smith,michael.smith@demo.net,03/01/2026,4.47367E+11,65082,Consistency,Date of birth is after current date
+48,James,Garcia,james.garcia@mail.com,14/01/1967,4.47319E+11,,Completeness,Missing mandatory field(s)
+232,Sarah,Davis,sarah.davis@test.org,26/01/2027,4.47402E+11,30006,Consistency,Date of birth is after current date
+93,James,Garcia,james.garcia@example.com,04/01/2000,4.47268E+11,25906,Completeness,Missing mandatory field(s)
+979,David,Johnson,david.johnson@mail.com,04/05/2026,4.47591E+11,62632,Consistency,Date of birth is after current date
+523,John,Garcia,user@@domain.com,04/07/1967,4.4E+11,9999999999,Validity,Invalid format or value
+458,John,Jones,john.jones@demo.net,10/04/2004,4.47647E+11,15183,Uniqueness,Duplicate CustomerID
+406,James,Jones,noatsign.com,20/06/1976,,,Validity,Invalid format or value
+439,David,Johnson,david.johnson@demo.net,10/11/2001,4.47699E+11,39567,Uniqueness,Duplicate CustomerID
+584,David,Miller,david.miller@test.org,12/12/2025,4.47614E+11,58864,Consistency,Date of birth is after current date
+185,Jane,Garcia,jane.garcia@mail.com,21/11/2025,4.4797E+11,13794,Consistency,Date of birth is after current date
+367,Sarah,Garcia,sarah.garcia@demo.net,13/05/1963,4.47651E+11,,Completeness,Missing mandatory field(s)
+766,David,Wilson,david.wilson@mail.com,19/07/1974,4.47427E+11,54939,Uniqueness,Duplicate CustomerID
+11,Chris,Johnson,chris.johnson@mail.com,31/10/2026,4.47408E+11,46434,Consistency,Date of birth is after current date
+735,John,Williams,noatsign.com,27/06/1979,abcdefghij,9999999999,Validity,Invalid format or value
+51,Michael,Johnson,noatsign.com,07/02/1971,4.4E+11,ABCDE,Validity,Invalid format or value
+887,James,Smith,,09/04/1972,4.47308E+11,,Completeness,Missing mandatory field(s)
+858,David,Jones,,29/06/1950,4.47761E+11,,Completeness,Missing mandatory field(s)
+925,Laura,Williams,laura.williams@mail.com,10/12/2026,4.479E+11,32361,Consistency,Date of birth is after current date
+70,Michael,Davis,michael.davis@example.com,03/02/1966,4.47791E+11,,Completeness,Missing mandatory field(s)
+409,James,Brown,james.brown@mail.com,26/10/2026,4.47938E+11,20730,Consistency,Date of birth is after current date
+351,Sarah,Davis,,30/03/1983,4.4E+11,9999999999,Validity,Invalid format or value
+899,John,Smith,,16/01/1984,4.4E+11,ABCDE,Validity,Invalid format or value
+458,James,Jones,james.jones@example.com,21/01/1995,4.47873E+11,98346,Uniqueness,Duplicate CustomerID
+984,David,Smith,,10/07/1975,4.4764E+11,12136,Completeness,Missing mandatory field(s)
+211,David,Wilson,david.wilson@mail.com,22/03/1987,,22978,Completeness,Missing mandatory field(s)
+340,John,Johnson,john.johnson@mail.com,14/04/1977,4.47177E+11,31229,Uniqueness,Duplicate CustomerID
+577,John,Miller,john.miller@demo.net,27/05/1974,4.47562E+11,,Completeness,Missing mandatory field(s)
+28,John,Johnson,,03/08/1977,4.47257E+11,,Completeness,Missing mandatory field(s)
+708,Jane,Garcia,invalid@,12/11/1965,12345,ABCDE,Validity,Invalid format or value
+322,Michael,Smith,michael.smith@mail.com,09/06/2026,4.47728E+11,67432,Consistency,Date of birth is after current date
+238,Emily,Johnson,emily.johnson@test.org,20/04/2026,4.47395E+11,25058,Consistency,Date of birth is after current date
+131,Chris,Wilson,,16/06/1992,,,Validity,Invalid format or value
+571,David,Wilson,david.wilson@example.com,27/04/2026,4.4775E+11,67342,Consistency,Date of birth is after current date
+671,David,Williams,,24/06/1953,,53449,Completeness,Missing mandatory field(s)
+533,Michael,Wilson,invalid@,15/07/1968,4.4E+11,,Validity,Invalid format or value
+722,Jane,Smith,jane.smith@example.com,19/08/2026,4.47448E+11,68237,Consistency,Date of birth is after current date
+900,Sarah,Miller,sarah.miller@test.org,16/10/1966,4.47589E+11,,Completeness,Missing mandatory field(s)
+392,Sarah,Jones,,10/01/1958,4.477E+11,85252,Completeness,Missing mandatory field(s)
+436,James,Davis,james.davis@demo.net,31/12/1999,4.47569E+11,27575,Uniqueness,Duplicate CustomerID
+681,Emily,Jones,,25/08/1991,4.47542E+11,62028,Completeness,Missing mandatory field(s)
+320,John,Miller,john.miller@demo.net,08/08/2026,4.47687E+11,17518,Consistency,Date of birth is after current date
+67,David,Williams,user@@domain.com,28/08/1977,abcdefghij,,Validity,Invalid format or value
+760,Emily,Miller,user@@domain.com,09/03/1987,abcdefghij,9999999999,Validity,Invalid format or value
+564,Sarah,Miller,noatsign.com,14/09/1984,abcdefghij,ABCDE,Validity,Invalid format or value
+375,Emily,Smith,emily.smith@example.com,12/02/1967,4.4702E+11,67807,Completeness,Missing mandatory field(s)
+627,Sarah,Johnson,sarah.johnson@example.com,09/12/1996,4.47707E+11,18739,Uniqueness,Duplicate CustomerID
+967,Anna,Smith,anna.smith@example.com,31/05/1974,4.47476E+11,96761,Uniqueness,Duplicate CustomerID
+902,Michael,Garcia,michael.garcia@demo.net,12/12/2026,4.4745E+11,58799,Consistency,Date of birth is after current date
+364,Anna,Johnson,anna.johnson@mail.com,18/11/2025,4.47423E+11,58915,Consistency,Date of birth is after current date
+110,Chris,Davis,chris.davis@test.org,29/03/2026,4.47505E+11,12540,Consistency,Date of birth is after current date
+951,Chris,Garcia,user@@domain.com,30/10/1967,4.4E+11,ABCDE,Validity,Invalid format or value
+133,Chris,Jones,chris.jones@test.org,07/09/1970,4.4713E+11,35242,Uniqueness,Duplicate CustomerID
+919,Sarah,Wilson,,21/02/1987,12345,,Validity,Invalid format or value
+180,David,Williams,,14/02/1992,4.4E+11,ABCDE,Validity,Invalid format or value
+942,Chris,Williams,chris.williams@demo.net,07/11/2025,4.4725E+11,21822,Consistency,Date of birth is after current date
+412,Michael,Miller,michael.miller@demo.net,05/06/1960,4.4773E+11,36922,Completeness,Missing mandatory field(s)
+960,Laura,Johnson,laura.johnson@test.org,03/03/1981,4.47762E+11,18511,Uniqueness,Duplicate CustomerID
+131,Emily,Garcia,emily.garcia@demo.net,31/01/1967,4.47101E+11,22704,Uniqueness,Duplicate CustomerID
+299,Emily,Jones,emily.jones@example.com,14/04/1954,4.47256E+11,65027,Uniqueness,Duplicate CustomerID
+884,Sarah,Garcia,sarah.garcia@demo.net,03/10/2026,4.47926E+11,13584,Consistency,Date of birth is after current date
+446,Sarah,Miller,sarah.miller@demo.net,27/10/2025,4.47604E+11,39002,Consistency,Date of birth is after current date
+343,Chris,Wilson,chris.wilson@example.com,02/02/1995,,32103,Completeness,Missing mandatory field(s)
+925,Laura,Williams,laura.williams@mail.com,04/04/1997,4.479E+11,32361,Completeness,Missing mandatory field(s)
+710,Anna,Williams,anna.williams@demo.net,24/11/1957,4.47139E+11,90541,Uniqueness,Duplicate CustomerID
+516,David,Wilson,invalid@,19/03/1981,4.4E+11,9999999999,Validity,Invalid format or value
+949,James,Brown,james.brown@demo.net,20/01/2027,4.47732E+11,50908,Consistency,Date of birth is after current date
+433,Sarah,Davis,sarah.davis@test.org,22/10/2025,4.47438E+11,29558,Consistency,Date of birth is after current date
+993,Laura,Jones,laura.jones@example.com,02/09/1956,4.47735E+11,46749,Uniqueness,Duplicate CustomerID
+185,Michael,Smith,michael.smith@test.org,22/08/1999,4.47627E+11,85909,Uniqueness,Duplicate CustomerID
+495,Laura,Jones,laura.jones@example.com,16/01/2027,4.47723E+11,75444,Consistency,Date of birth is after current date
+300,Anna,Garcia,anna.garcia@example.com,12/12/1959,4.47898E+11,75513,Completeness,Missing mandatory field(s)
+644,David,Williams,user@@domain.com,29/01/1999,12345,ABCDE,Validity,Invalid format or value
+512,Laura,Wilson,laura.wilson@demo.net,19/11/1984,4.47005E+11,38153,Uniqueness,Duplicate CustomerID
+586,John,Davis,john.davis@example.com,23/09/1991,4.4793E+11,47002,Uniqueness,Duplicate CustomerID
+564,Sarah,Miller,sarah.miller@mail.com,14/09/1984,4.47924E+11,84498,Uniqueness,Duplicate CustomerID
+225,James,Jones,user@@domain.com,17/10/1952,4.4E+11,9999999999,Validity,Invalid format or value
+716,Chris,Jones,chris.jones@mail.com,26/07/1988,4.47844E+11,86019,Uniqueness,Duplicate CustomerID
+677,James,Miller,invalid@,24/03/1996,abcdefghij,9999999999,Validity,Invalid format or value
+278,David,Williams,david.williams@example.com,03/02/2027,4.476E+11,59372,Consistency,Date of birth is after current date
+739,John,Williams,,29/04/1987,12345,9999999999,Validity,Invalid format or value
+698,Emily,Miller,emily.miller@mail.com,16/07/2026,4.47685E+11,72355,Consistency,Date of birth is after current date
+293,Sarah,Smith,invalid@,12/10/1954,12345,,Validity,Invalid format or value
+480,James,Rodriguez,james.rodriguez@demo.net,15/02/2026,4.47028E+11,21746,Consistency,Date of birth is after current date
+281,Laura,Brown,laura.brown@mail.com,01/04/2026,4.47166E+11,20114,Consistency,Date of birth is after current date
+572,Michael,Jones,michael.jones@example.com,27/06/2001,4.47724E+11,25117,Uniqueness,Duplicate CustomerID
+440,Jane,Brown,jane.brown@mail.com,28/01/2026,4.47224E+11,53642,Consistency,Date of birth is after current date
+612,Laura,Smith,noatsign.com,11/04/1988,12345,,Validity,Invalid format or value
+811,Emily,Davis,,10/06/1964,abcdefghij,9999999999,Validity,Invalid format or value
+538,Chris,Jones,chris.jones@demo.net,04/09/1996,4.4764E+11,78697,Uniqueness,Duplicate CustomerID
+229,Chris,Garcia,user@@domain.com,24/11/1958,4.4E+11,9999999999,Validity,Invalid format or value
+628,Sarah,Smith,,03/04/1963,4.4763E+11,28566,Completeness,Missing mandatory field(s)
+214,Jane,Miller,,08/06/1955,4.47427E+11,46160,Completeness,Missing mandatory field(s)
+797,James,Smith,james.smith@example.com,28/11/1968,4.4772E+11,92511,Uniqueness,Duplicate CustomerID
+287,Anna,Garcia,,13/04/1975,12345,9999999999,Validity,Invalid format or value
+3,John,Johnson,john.johnson@mail.com,29/01/2026,4.47543E+11,88907,Consistency,Date of birth is after current date
+102,David,Wilson,david.wilson@example.com,14/04/2026,4.47408E+11,72518,Consistency,Date of birth is after current date
+408,Anna,Miller,,11/04/1999,abcdefghij,,Validity,Invalid format or value
+464,Michael,Johnson,michael.johnson@demo.net,05/12/1988,4.47692E+11,53420,Completeness,Missing mandatory field(s)
+158,Michael,Garcia,noatsign.com,15/12/1974,12345,,Validity,Invalid format or value
+748,Emily,Rodriguez,emily.rodriguez@demo.net,07/03/1986,,40801,Completeness,Missing mandatory field(s)
+537,John,Jones,john.jones@mail.com,05/10/2026,4.47268E+11,29168,Consistency,Date of birth is after current date
+585,Jane,Rodriguez,jane.rodriguez@example.com,29/08/2026,4.4724E+11,77603,Consistency,Date of birth is after current date
+274,David,Davis,noatsign.com,22/08/2003,abcdefghij,9999999999,Validity,Invalid format or value
+307,Sarah,Johnson,sarah.johnson@test.org,20/08/1971,4.47787E+11,96127,Completeness,Missing mandatory field(s)
+317,Jane,Davis,jane.davis@mail.com,09/12/1998,4.47315E+11,52101,Completeness,Missing mandatory field(s)
+611,Laura,Smith,invalid@,27/06/2001,4.4E+11,9999999999,Validity,Invalid format or value
+613,Emily,Williams,,09/02/1975,,ABCDE,Validity,Invalid format or value
+271,James,Williams,james.williams@example.com,02/06/1990,4.47111E+11,55015,Uniqueness,Duplicate CustomerID
+53,Anna,Wilson,invalid@,24/05/1973,abcdefghij,9999999999,Validity,Invalid format or value
+214,Jane,Miller,jane.miller@test.org,01/12/2025,4.47427E+11,46160,Consistency,Date of birth is after current date
+397,Michael,Rodriguez,invalid@,24/06/1974,4.4E+11,,Validity,Invalid format or value
+670,Laura,Wilson,invalid@,12/05/1953,4.4E+11,9999999999,Validity,Invalid format or value
+42,David,Davis,david.davis@example.com,22/04/2002,4.4776E+11,84978,Uniqueness,Duplicate CustomerID
+31,James,Williams,,04/05/1997,4.4E+11,9999999999,Validity,Invalid format or value
+562,John,Brown,noatsign.com,14/08/1984,4.4E+11,ABCDE,Validity,Invalid format or value
+457,David,Johnson,david.johnson@test.org,26/02/1991,4.47754E+11,97194,Uniqueness,Duplicate CustomerID
+91,Anna,Brown,,09/05/1994,,9999999999,Validity,Invalid format or value
+650,John,Davis,john.davis@example.com,03/11/2026,4.47885E+11,96772,Consistency,Date of birth is after current date
+334,Emily,Garcia,invalid@,18/05/1982,abcdefghij,ABCDE,Validity,Invalid format or value
+978,David,Johnson,david.johnson@test.org,17/10/2026,4.47754E+11,97194,Consistency,Date of birth is after current date
+23,John,Johnson,invalid@,08/07/1980,4.4E+11,,Validity,Invalid format or value
+217,Anna,Brown,noatsign.com,21/09/1999,,,Validity,Invalid format or value
+522,Michael,Miller,,27/07/2005,4.4E+11,ABCDE,Validity,Invalid format or value
+824,Jane,Johnson,jane.johnson@example.com,14/11/2025,4.47678E+11,14088,Consistency,Date of birth is after current date
+545,John,Smith,john.smith@example.com,02/01/2027,4.47017E+11,26284,Consistency,Date of birth is after current date
+402,Sarah,Brown,sarah.brown@example.com,25/05/1973,4.47412E+11,40870,Uniqueness,Duplicate CustomerID
+257,David,Smith,david.smith@test.org,13/01/2026,4.4786E+11,91018,Consistency,Date of birth is after current date
+578,Chris,Wilson,chris.wilson@example.com,06/07/1994,,,Completeness,Missing mandatory field(s)
+869,Michael,Garcia,,28/11/1957,,44483,Completeness,Missing mandatory field(s)
+710,Anna,Williams,invalid@,24/11/1957,4.4E+11,9999999999,Validity,Invalid format or value
+986,James,Davis,james.davis@example.com,03/07/1951,4.47568E+11,46010,Uniqueness,Duplicate CustomerID
+365,Sarah,Rodriguez,noatsign.com,11/12/1962,,ABCDE,Validity,Invalid format or value
+4,John,Rodriguez,john.rodriguez@mail.com,21/11/1998,4.4745E+11,38893,Uniqueness,Duplicate CustomerID
+295,John,Miller,john.miller@example.com,05/03/2026,4.4785E+11,29142,Consistency,Date of birth is after current date
+579,Sarah,Smith,sarah.smith@demo.net,25/10/2026,4.47179E+11,58193,Consistency,Date of birth is after current date
+159,David,Garcia,david.garcia@example.com,04/02/2027,4.47374E+11,63523,Consistency,Date of birth is after current date
+682,Jane,Smith,jane.smith@mail.com,01/06/1983,4.47525E+11,,Completeness,Missing mandatory field(s)
+485,Michael,Davis,,12/10/1987,,9999999999,Validity,Invalid format or value
+919,Sarah,Wilson,sarah.wilson@demo.net,07/08/2026,4.4718E+11,34102,Consistency,Date of birth is after current date
+853,Jane,Garcia,jane.garcia@mail.com,21/02/2004,4.47579E+11,10157,Uniqueness,Duplicate CustomerID
+174,Laura,Miller,noatsign.com,08/07/1999,abcdefghij,9999999999,Validity,Invalid format or value
+422,John,Jones,user@@domain.com,05/11/1998,abcdefghij,ABCDE,Validity,Invalid format or value
+860,Emily,Miller,emily.miller@demo.net,29/10/2026,4.47114E+11,30287,Consistency,Date of birth is after current date
+440,Jane,Brown,noatsign.com,03/01/1993,12345,9999999999,Validity,Invalid format or value
+688,Michael,Wilson,michael.wilson@example.com,15/04/2026,4.47271E+11,89736,Consistency,Date of birth is after current date
+139,Anna,Jones,anna.jones@demo.net,12/12/1992,,54657,Completeness,Missing mandatory field(s)
+315,Laura,Davis,laura.davis@test.org,05/10/1966,4.47533E+11,75211,Uniqueness,Duplicate CustomerID
+563,Laura,Wilson,laura.wilson@example.com,24/05/1997,4.47954E+11,,Completeness,Missing mandatory field(s)
+525,David,Garcia,,02/01/1965,,84107,Completeness,Missing mandatory field(s)
+858,David,Jones,david.jones@mail.com,29/06/1950,4.47761E+11,10932,Uniqueness,Duplicate CustomerID
+853,James,Jones,james.jones@mail.com,13/09/1976,4.47828E+11,47880,Uniqueness,Duplicate CustomerID
+793,David,Wilson,david.wilson@example.com,23/07/1984,4.47966E+11,85574,Uniqueness,Duplicate CustomerID
+589,Anna,Brown,anna.brown@demo.net,15/01/1983,4.47635E+11,74665,Uniqueness,Duplicate CustomerID
+639,John,Smith,noatsign.com,25/04/1989,abcdefghij,9999999999,Validity,Invalid format or value
+871,David,Wilson,,08/08/2003,4.47062E+11,32973,Completeness,Missing mandatory field(s)
+982,Anna,Jones,anna.jones@example.com,07/06/1983,4.47875E+11,54921,Uniqueness,Duplicate CustomerID
+520,Anna,Williams,anna.williams@demo.net,15/12/1987,,73788,Completeness,Missing mandatory field(s)
+358,Emily,Brown,emily.brown@test.org,14/05/1954,4.47054E+11,46877,Completeness,Missing mandatory field(s)
+644,David,Williams,david.williams@example.com,01/08/2026,4.47964E+11,22203,Consistency,Date of birth is after current date
+226,David,Davis,,26/12/1993,12345,ABCDE,Validity,Invalid format or value
+986,Emily,Miller,emily.miller@example.com,04/10/1974,4.47987E+11,82569,Uniqueness,Duplicate CustomerID
+941,John,Rodriguez,noatsign.com,06/09/1966,abcdefghij,ABCDE,Validity,Invalid format or value
+411,Laura,Jones,laura.jones@demo.net,09/05/1999,4.47039E+11,69614,Uniqueness,Duplicate CustomerID
+492,Laura,Wilson,invalid@,28/03/1979,,,Validity,Invalid format or value
+408,Anna,Miller,anna.miller@demo.net,11/04/1999,,,Completeness,Missing mandatory field(s)
+245,Sarah,Williams,sarah.williams@test.org,01/07/2026,4.47775E+11,52517,Consistency,Date of birth is after current date
+811,Emily,Davis,emily.davis@mail.com,27/01/2026,4.47198E+11,38939,Consistency,Date of birth is after current date
+668,Anna,Wilson,anna.wilson@example.com,24/06/1959,4.47604E+11,23237,Uniqueness,Duplicate CustomerID
+832,Emily,Smith,user@@domain.com,18/06/1996,12345,,Validity,Invalid format or value
+835,Anna,Williams,anna.williams@demo.net,17/12/1983,4.47392E+11,87028,Uniqueness,Duplicate CustomerID
+609,Jane,Smith,jane.smith@example.com,28/09/1967,4.47969E+11,94670,Uniqueness,Duplicate CustomerID
+352,Jane,Miller,jane.miller@mail.com,07/11/1991,,,Completeness,Missing mandatory field(s)
+126,Sarah,Williams,,11/01/1969,,43862,Completeness,Missing mandatory field(s)
+276,David,Jones,david.jones@test.org,27/01/2004,4.47938E+11,29709,Completeness,Missing mandatory field(s)
+356,Laura,Rodriguez,laura.rodriguez@demo.net,10/03/2026,4.47944E+11,50441,Consistency,Date of birth is after current date
+261,Jane,Rodriguez,jane.rodriguez@example.com,20/09/2026,4.47548E+11,35415,Consistency,Date of birth is after current date
+793,David,Johnson,user@@domain.com,07/01/1973,abcdefghij,9999999999,Validity,Invalid format or value
+929,Sarah,Davis,sarah.davis@mail.com,06/01/1968,4.47142E+11,80701,Uniqueness,Duplicate CustomerID
+282,Chris,Johnson,chris.johnson@example.com,17/07/2026,4.47941E+11,91006,Consistency,Date of birth is after current date
+13,Chris,Johnson,,02/12/1997,4.4E+11,ABCDE,Validity,Invalid format or value
+209,Chris,Garcia,chris.garcia@example.com,11/07/2026,4.47252E+11,80457,Consistency,Date of birth is after current date
+95,Michael,Garcia,michael.garcia@mail.com,06/07/1954,4.47279E+11,59689,Uniqueness,Duplicate CustomerID
+421,James,Davis,,24/12/1969,4.47896E+11,,Completeness,Missing mandatory field(s)
+294,Sarah,Brown,sarah.brown@demo.net,28/04/1957,,39430,Completeness,Missing mandatory field(s)
+413,Anna,Garcia,anna.garcia@example.com,15/10/1995,4.47478E+11,17292,Completeness,Missing mandatory field(s)
+714,Emily,Miller,emily.miller@test.org,28/01/2027,4.4711E+11,60272,Consistency,Date of birth is after current date
+527,James,Jones,james.jones@mail.com,13/02/2027,4.47607E+11,74921,Consistency,Date of birth is after current date
+696,John,Garcia,john.garcia@test.org,03/09/2026,4.47974E+11,64862,Consistency,Date of birth is after current date
+714,Emily,Miller,emily.miller@test.org,26/07/1961,,,Completeness,Missing mandatory field(s)
+431,Emily,Davis,emily.davis@test.org,21/11/2025,4.47065E+11,82970,Consistency,Date of birth is after current date
+761,Anna,Johnson,anna.johnson@demo.net,13/01/1991,4.47707E+11,87242,Completeness,Missing mandatory field(s)
+394,John,Davis,invalid@,19/09/1966,,,Validity,Invalid format or value
+798,Emily,Davis,invalid@,11/06/1968,4.4E+11,9999999999,Validity,Invalid format or value
+865,Chris,Jones,,19/09/1985,,,Validity,Invalid format or value
+917,Sarah,Brown,invalid@,06/06/1978,abcdefghij,,Validity,Invalid format or value
+738,David,Garcia,invalid@,18/12/1964,12345,9999999999,Validity,Invalid format or value
+801,James,Johnson,james.johnson@mail.com,05/01/2027,4.47438E+11,60860,Consistency,Date of birth is after current date
+220,Michael,Johnson,michael.johnson@example.com,28/10/1961,4.47016E+11,56955,Uniqueness,Duplicate CustomerID
+773,John,Smith,john.smith@mail.com,14/12/1973,4.47806E+11,31094,Completeness,Missing mandatory field(s)
+223,Laura,Garcia,invalid@,17/01/1996,12345,,Validity,Invalid format or value
+907,Michael,Rodriguez,noatsign.com,28/08/1993,abcdefghij,9999999999,Validity,Invalid format or value
+711,David,Davis,david.davis@demo.net,28/06/1988,4.47513E+11,60242,Uniqueness,Duplicate CustomerID
+133,Chris,Jones,noatsign.com,07/09/1970,,,Validity,Invalid format or value
+709,John,Smith,john.smith@demo.net,17/09/2026,4.47225E+11,32099,Consistency,Date of birth is after current date
+924,Jane,Davis,jane.davis@test.org,30/07/1970,4.47266E+11,47247,Uniqueness,Duplicate CustomerID
+934,Anna,Brown,invalid@,08/03/1999,4.4E+11,,Validity,Invalid format or value
+466,Laura,Jones,noatsign.com,02/09/1956,,9999999999,Validity,Invalid format or value
+794,John,Rodriguez,,21/02/1996,,9999999999,Validity,Invalid format or value
+497,David,Davis,,16/04/1990,abcdefghij,ABCDE,Validity,Invalid format or value
+199,Emily,Jones,emily.jones@example.com,18/10/2001,4.47109E+11,80371,Uniqueness,Duplicate CustomerID
+66,James,Smith,noatsign.com,05/04/2002,,,Validity,Invalid format or value
+619,John,Miller,user@@domain.com,18/08/1952,12345,9999999999,Validity,Invalid format or value
+203,Emily,Davis,emily.davis@test.org,07/02/1958,4.47849E+11,61717,Completeness,Missing mandatory field(s)
+534,John,Wilson,,02/10/1997,12345,ABCDE,Validity,Invalid format or value
+50,Anna,Jones,anna.jones@mail.com,30/04/2001,4.47447E+11,91016,Uniqueness,Duplicate CustomerID
+445,Laura,Johnson,,24/09/1978,4.47982E+11,36624,Completeness,Missing mandatory field(s)
+784,John,Miller,noatsign.com,21/11/1963,,,Validity,Invalid format or value
+451,Sarah,Williams,sarah.williams@mail.com,13/01/1999,4.47524E+11,,Completeness,Missing mandatory field(s)
+972,Anna,Johnson,anna.johnson@example.com,22/09/1968,4.47704E+11,,Completeness,Missing mandatory field(s)
+986,Emily,Miller,emily.miller@example.com,13/06/2026,4.47987E+11,82569,Consistency,Date of birth is after current date
+43,David,Williams,david.williams@test.org,04/07/1991,4.47268E+11,19880,Uniqueness,Duplicate CustomerID
+482,David,Smith,david.smith@test.org,13/07/2026,4.47416E+11,21101,Consistency,Date of birth is after current date
+36,John,Brown,noatsign.com,26/10/1952,,,Validity,Invalid format or value
+741,James,Wilson,james.wilson@mail.com,30/07/1961,4.47465E+11,75911,Uniqueness,Duplicate CustomerID
+964,John,Rodriguez,john.rodriguez@demo.net,24/08/1966,4.47948E+11,12453,Uniqueness,Duplicate CustomerID
+937,Emily,Rodriguez,emily.rodriguez@test.org,17/07/1975,4.47696E+11,79722,Completeness,Missing mandatory field(s)
+300,Anna,Garcia,user@@domain.com,12/12/1959,12345,,Validity,Invalid format or value
+328,Laura,Rodriguez,noatsign.com,22/05/2000,12345,ABCDE,Validity,Invalid format or value
+576,Michael,Miller,michael.miller@mail.com,26/01/2027,4.47787E+11,25473,Consistency,Date of birth is after current date
+447,Michael,Smith,user@@domain.com,22/08/1999,4.4E+11,ABCDE,Validity,Invalid format or value
+308,Jane,Wilson,jane.wilson@test.org,20/12/1961,4.47048E+11,56176,Uniqueness,Duplicate CustomerID
+66,James,Smith,james.smith@test.org,05/04/2002,4.47593E+11,,Completeness,Missing mandatory field(s)
+740,Laura,Wilson,laura.wilson@demo.net,06/04/1966,4.47656E+11,59774,Uniqueness,Duplicate CustomerID
+150,Laura,Johnson,,25/09/1973,,,Completeness,Missing mandatory field(s)
+541,Sarah,Wilson,user@@domain.com,11/05/1958,abcdefghij,ABCDE,Validity,Invalid format or value
+911,James,Rodriguez,james.rodriguez@test.org,15/11/1980,4.47021E+11,63970,Uniqueness,Duplicate CustomerID
+775,Emily,Rodriguez,emily.rodriguez@example.com,07/03/1982,4.47874E+11,69322,Completeness,Missing mandatory field(s)
+739,John,Williams,john.williams@example.com,29/04/1987,4.47978E+11,87430,Completeness,Missing mandatory field(s)
+539,Chris,Davis,chris.davis@demo.net,20/07/1990,4.47081E+11,93050,Uniqueness,Duplicate CustomerID
+967,James,Williams,james.williams@test.org,10/12/1978,4.4744E+11,94004,Uniqueness,Duplicate CustomerID
+411,Jane,Smith,jane.smith@mail.com,19/05/2001,4.47576E+11,29641,Uniqueness,Duplicate CustomerID
+486,Jane,Miller,jane.miller@test.org,15/02/1972,4.47774E+11,91924,Completeness,Missing mandatory field(s)
+129,Emily,Garcia,emily.garcia@demo.net,17/03/1990,,12260,Completeness,Missing mandatory field(s)
+893,Laura,Wilson,laura.wilson@example.com,31/07/1998,4.47045E+11,,Completeness,Missing mandatory field(s)
+897,Laura,Rodriguez,laura.rodriguez@example.com,01/12/2026,4.47373E+11,61605,Consistency,Date of birth is after current date
+255,David,Smith,invalid@,26/12/1956,,9999999999,Validity,Invalid format or value
+930,Jane,Garcia,,25/10/1982,,,Validity,Invalid format or value
+122,Michael,Davis,michael.davis@mail.com,22/10/1996,4.47698E+11,45400,Completeness,Missing mandatory field(s)
+83,James,Williams,james.williams@mail.com,21/09/1987,4.47714E+11,,Completeness,Missing mandatory field(s)
+799,Laura,Jones,laura.jones@test.org,11/06/1975,4.47363E+11,81737,Uniqueness,Duplicate CustomerID
+825,Anna,Wilson,anna.wilson@demo.net,08/12/2002,4.47228E+11,14804,Uniqueness,Duplicate CustomerID
+381,James,Jones,invalid@,13/09/1976,,9999999999,Validity,Invalid format or value
+456,Anna,Garcia,noatsign.com,31/05/1951,,ABCDE,Validity,Invalid format or value
+14,Michael,Garcia,invalid@,21/03/1974,12345,9999999999,Validity,Invalid format or value
+70,Laura,Garcia,laura.garcia@example.com,05/08/1976,4.47965E+11,95397,Uniqueness,Duplicate CustomerID
+374,James,Wilson,user@@domain.com,05/04/1963,,,Validity,Invalid format or value
+608,David,Miller,user@@domain.com,30/03/2002,,9999999999,Validity,Invalid format or value
+433,Sarah,Davis,sarah.davis@test.org,09/05/1987,4.47438E+11,29558,Uniqueness,Duplicate CustomerID
+350,Sarah,Wilson,noatsign.com,16/01/1978,,9999999999,Validity,Invalid format or value
+326,Laura,Rodriguez,laura.rodriguez@example.com,30/01/1995,4.47373E+11,61605,Uniqueness,Duplicate CustomerID
+755,Anna,Garcia,noatsign.com,07/08/1990,,ABCDE,Validity,Invalid format or value
+86,Anna,Jones,anna.jones@demo.net,09/06/1972,4.47491E+11,49599,Uniqueness,Duplicate CustomerID
+106,David,Williams,noatsign.com,14/06/1961,4.4E+11,9999999999,Validity,Invalid format or value
+549,Michael,Smith,michael.smith@demo.net,06/11/2026,4.4778E+11,40689,Consistency,Date of birth is after current date
+515,Chris,Garcia,chris.garcia@test.org,03/08/2026,4.47417E+11,90125,Consistency,Date of birth is after current date
+674,Jane,Brown,jane.brown@mail.com,16/12/1976,4.47799E+11,68079,Uniqueness,Duplicate CustomerID
+885,Laura,Johnson,laura.johnson@test.org,06/04/2026,4.47411E+11,93055,Consistency,Date of birth is after current date
+308,Anna,Miller,anna.miller@mail.com,26/09/2000,4.47112E+11,75035,Uniqueness,Duplicate CustomerID
+199,John,Wilson,john.wilson@test.org,12/01/2026,4.47097E+11,48680,Consistency,Date of birth is after current date
+998,Chris,Jones,chris.jones@test.org,29/03/1994,4.47157E+11,18292,Uniqueness,Duplicate CustomerID
+362,James,Brown,james.brown@test.org,21/03/2026,4.4731E+11,19637,Consistency,Date of birth is after current date
+446,Sarah,Miller,sarah.miller@demo.net,07/02/1954,4.47604E+11,39002,Uniqueness,Duplicate CustomerID
+307,Sarah,Johnson,,20/08/1971,12345,9999999999,Validity,Invalid format or value
+216,Anna,Smith,noatsign.com,03/12/1979,4.4E+11,9999999999,Validity,Invalid format or value
+80,James,Brown,user@@domain.com,10/09/1988,abcdefghij,,Validity,Invalid format or value
+114,Jane,Wilson,,21/09/1991,12345,9999999999,Validity,Invalid format or value
+474,David,Davis,david.davis@mail.com,24/07/2002,4.47709E+11,59816,Uniqueness,Duplicate CustomerID
+437,David,Brown,david.brown@test.org,27/10/2025,4.47355E+11,94765,Consistency,Date of birth is after current date
+585,Michael,Williams,michael.williams@example.com,23/01/1991,4.4704E+11,48462,Uniqueness,Duplicate CustomerID
+4,John,Rodriguez,john.rodriguez@mail.com,18/09/2026,4.4745E+11,38893,Consistency,Date of birth is after current date
+2,Jane,Rodriguez,jane.rodriguez@example.com,23/12/2002,4.47453E+11,14165,Uniqueness,Duplicate CustomerID
+254,Anna,Johnson,anna.johnson@example.com,22/09/1968,4.47704E+11,74409,Uniqueness,Duplicate CustomerID
+556,Anna,Smith,anna.smith@mail.com,26/06/1989,4.47377E+11,37925,Uniqueness,Duplicate CustomerID
+166,Jane,Smith,jane.smith@mail.com,17/03/1964,,,Completeness,Missing mandatory field(s)
+795,Sarah,Brown,sarah.brown@mail.com,20/09/1986,4.47749E+11,82628,Uniqueness,Duplicate CustomerID
+288,James,Rodriguez,,16/07/1964,,ABCDE,Validity,Invalid format or value
+166,Jane,Smith,jane.smith@mail.com,18/02/2026,4.47334E+11,82199,Consistency,Date of birth is after current date
+369,Chris,Wilson,chris.wilson@test.org,07/07/1995,,,Completeness,Missing mandatory field(s)
+524,James,Rodriguez,,15/09/1986,,9999999999,Validity,Invalid format or value
+212,Laura,Wilson,laura.wilson@demo.net,05/02/1975,,58566,Completeness,Missing mandatory field(s)
+867,James,Davis,,25/05/1999,4.4E+11,ABCDE,Validity,Invalid format or value
+719,Emily,Williams,,20/12/1951,4.4E+11,,Validity,Invalid format or value
+250,Anna,Garcia,anna.garcia@test.org,24/12/2025,4.47237E+11,61807,Consistency,Date of birth is after current date
+412,Michael,Miller,michael.miller@demo.net,06/08/2026,4.4773E+11,36922,Consistency,Date of birth is after current date
+839,Jane,Rodriguez,,22/12/1968,4.4E+11,9999999999,Validity,Invalid format or value
+626,John,Brown,john.brown@mail.com,16/10/1951,4.47565E+11,72650,Uniqueness,Duplicate CustomerID
+410,James,Garcia,invalid@,03/01/1957,abcdefghij,,Validity,Invalid format or value
+374,Jane,Rodriguez,jane.rodriguez@example.com,08/08/1997,4.47548E+11,35415,Uniqueness,Duplicate CustomerID
+765,Anna,Wilson,anna.wilson@test.org,24/03/1995,4.47946E+11,60418,Uniqueness,Duplicate CustomerID
+681,Emily,Jones,emily.jones@example.com,04/11/1952,4.471E+11,63120,Uniqueness,Duplicate CustomerID
+907,Michael,Rodriguez,michael.rodriguez@test.org,28/08/1993,4.47322E+11,42895,Uniqueness,Duplicate CustomerID
+696,John,Garcia,john.garcia@test.org,10/04/1973,4.47974E+11,64862,Uniqueness,Duplicate CustomerID
+64,Sarah,Williams,sarah.williams@test.org,24/01/2027,4.47796E+11,67912,Consistency,Date of birth is after current date
+353,Laura,Brown,invalid@,08/09/1958,,ABCDE,Validity,Invalid format or value
+244,John,Johnson,john.johnson@mail.com,02/10/1983,4.47451E+11,69460,Uniqueness,Duplicate CustomerID
+34,Sarah,Jones,sarah.jones@test.org,10/08/1991,4.47914E+11,25437,Uniqueness,Duplicate CustomerID
+608,David,Miller,david.miller@example.com,30/03/2002,4.47629E+11,43924,Completeness,Missing mandatory field(s)
+969,John,Miller,john.miller@test.org,18/12/1988,4.47447E+11,25799,Uniqueness,Duplicate CustomerID
+602,Jane,Johnson,jane.johnson@mail.com,14/02/2026,4.47887E+11,89076,Consistency,Date of birth is after current date
+622,Emily,Wilson,emily.wilson@demo.net,30/10/2025,4.47901E+11,32768,Consistency,Date of birth is after current date
+24,David,Williams,,17/04/1950,4.4E+11,9999999999,Validity,Invalid format or value
+906,Michael,Garcia,,05/11/1965,abcdefghij,9999999999,Validity,Invalid format or value
+30,Jane,Rodriguez,jane.rodriguez@mail.com,27/08/2026,4.47708E+11,72296,Consistency,Date of birth is after current date
+530,David,Johnson,david.johnson@mail.com,30/04/2026,4.47939E+11,14224,Consistency,Date of birth is after current date
+987,James,Rodriguez,james.rodriguez@mail.com,23/01/2026,4.47041E+11,70341,Consistency,Date of birth is after current date
+686,Emily,Brown,invalid@,21/02/1974,abcdefghij,9999999999,Validity,Invalid format or value
+345,Anna,Miller,anna.miller@example.com,14/10/2026,4.47087E+11,15958,Consistency,Date of birth is after current date
+591,John,Brown,,11/11/1950,,10191,Completeness,Missing mandatory field(s)
+268,Laura,Garcia,invalid@,08/02/1955,,9999999999,Validity,Invalid format or value
+135,Chris,Wilson,chris.wilson@test.org,08/01/1959,4.47894E+11,35443,Completeness,Missing mandatory field(s)
+746,James,Garcia,,02/11/1964,4.4708E+11,,Completeness,Missing mandatory field(s)
+899,John,Smith,john.smith@mail.com,16/01/1984,4.47624E+11,23205,Completeness,Missing mandatory field(s)
+582,Emily,Smith,emily.smith@demo.net,27/08/1982,4.47411E+11,29671,Uniqueness,Duplicate CustomerID
+246,Anna,Wilson,,20/09/1954,4.47167E+11,30632,Completeness,Missing mandatory field(s)
+714,David,Miller,david.miller@mail.com,04/04/1992,4.47827E+11,19567,Uniqueness,Duplicate CustomerID
+825,Anna,Wilson,,08/12/2002,4.47228E+11,14804,Completeness,Missing mandatory field(s)
+26,James,Wilson,james.wilson@mail.com,23/01/2027,4.47401E+11,31174,Consistency,Date of birth is after current date
+543,Laura,Jones,laura.jones@test.org,04/02/2027,4.47363E+11,81737,Consistency,Date of birth is after current date
+230,James,Brown,,06/07/1990,,39949,Completeness,Missing mandatory field(s)
+95,Sarah,Garcia,sarah.garcia@demo.net,25/02/1999,4.47479E+11,30861,Uniqueness,Duplicate CustomerID
+868,John,Williams,john.williams@demo.net,16/03/2026,4.47864E+11,21939,Consistency,Date of birth is after current date
+543,Laura,Jones,noatsign.com,11/06/1975,abcdefghij,ABCDE,Validity,Invalid format or value
+46,Emily,Garcia,emily.garcia@demo.net,17/03/1990,4.47851E+11,12260,Uniqueness,Duplicate CustomerID
+736,Anna,Jones,user@@domain.com,07/06/1983,,,Validity,Invalid format or value
+402,Sarah,Brown,,25/05/1973,,,Validity,Invalid format or value
+605,John,Davis,john.davis@demo.net,05/01/2027,4.47803E+11,82105,Consistency,Date of birth is after current date
+527,James,Jones,,11/01/1991,12345,,Validity,Invalid format or value
+939,Chris,Johnson,chris.johnson@demo.net,19/11/2026,4.47486E+11,45669,Consistency,Date of birth is after current date
+310,Michael,Williams,michael.williams@example.com,02/02/2027,4.4704E+11,48462,Consistency,Date of birth is after current date
+329,Chris,Garcia,chris.garcia@mail.com,01/06/2026,4.47307E+11,74382,Consistency,Date of birth is after current date
+653,Chris,Davis,,17/11/1993,,96643,Completeness,Missing mandatory field(s)
+395,John,Smith,,14/12/2000,,,Completeness,Missing mandatory field(s)
+366,James,Davis,james.davis@example.com,10/02/2026,4.47042E+11,27961,Consistency,Date of birth is after current date
+741,Sarah,Wilson,user@@domain.com,21/09/1961,4.4E+11,ABCDE,Validity,Invalid format or value
+665,Jane,Davis,jane.davis@demo.net,22/07/2026,4.4735E+11,46202,Consistency,Date of birth is after current date
+604,Sarah,Davis,,23/10/1976,,ABCDE,Validity,Invalid format or value
+262,Sarah,Miller,sarah.miller@mail.com,09/11/2026,4.4711E+11,29194,Consistency,Date of birth is after current date
+90,Emily,Garcia,,10/11/1990,abcdefghij,9999999999,Validity,Invalid format or value
+461,Jane,Miller,jane.miller@demo.net,07/03/1991,4.47607E+11,41877,Completeness,Missing mandatory field(s)
+366,James,Davis,james.davis@example.com,24/01/1954,4.47042E+11,27961,Uniqueness,Duplicate CustomerID
+679,Anna,Smith,anna.smith@mail.com,18/04/1967,4.4794E+11,36309,Uniqueness,Duplicate CustomerID
+538,Sarah,Brown,sarah.brown@demo.net,29/11/1993,4.47153E+11,85684,Uniqueness,Duplicate CustomerID
+30,Jane,Rodriguez,jane.rodriguez@mail.com,09/07/1961,4.47708E+11,72296,Completeness,Missing mandatory field(s)
+705,James,Johnson,james.johnson@demo.net,14/07/1997,4.4732E+11,64146,Uniqueness,Duplicate CustomerID
+693,Laura,Johnson,laura.johnson@test.org,21/10/1974,4.47688E+11,52616,Completeness,Missing mandatory field(s)
+29,Emily,Wilson,emily.wilson@example.com,07/09/1957,4.47786E+11,73699,Uniqueness,Duplicate CustomerID
+385,Chris,Johnson,,08/09/1989,,43612,Completeness,Missing mandatory field(s)
+843,Anna,Wilson,anna.wilson@mail.com,01/02/1962,,77193,Completeness,Missing mandatory field(s)
+933,Laura,Jones,noatsign.com,13/08/1988,12345,,Validity,Invalid format or value
+513,Emily,Jones,invalid@,18/10/2001,,,Validity,Invalid format or value
+671,David,Williams,user@@domain.com,24/06/1953,,9999999999,Validity,Invalid format or value
+856,Sarah,Wilson,,04/03/1988,4.47144E+11,,Completeness,Missing mandatory field(s)
+536,Chris,Rodriguez,chris.rodriguez@example.com,07/01/2027,4.47805E+11,63948,Consistency,Date of birth is after current date
+768,James,Jones,james.jones@test.org,07/05/2026,4.47679E+11,38487,Consistency,Date of birth is after current date
+9,David,Miller,david.miller@demo.net,18/11/1986,4.47501E+11,17100,Uniqueness,Duplicate CustomerID
+182,James,Davis,james.davis@test.org,11/10/1993,4.47937E+11,80912,Uniqueness,Duplicate CustomerID
+919,Sarah,Wilson,sarah.wilson@demo.net,21/02/1987,4.4718E+11,,Completeness,Missing mandatory field(s)
+134,Sarah,Johnson,sarah.johnson@mail.com,09/03/1967,4.47232E+11,73464,Uniqueness,Duplicate CustomerID
+582,Emily,Smith,emily.smith@demo.net,27/08/1982,4.47411E+11,29671,Completeness,Missing mandatory field(s)
+459,David,Williams,noatsign.com,23/08/1958,,9999999999,Validity,Invalid format or value
+672,Emily,Smith,user@@domain.com,04/02/1974,4.4E+11,ABCDE,Validity,Invalid format or value
+645,Sarah,Wilson,sarah.wilson@demo.net,12/03/2026,4.47463E+11,95673,Consistency,Date of birth is after current date
+133,Emily,Smith,emily.smith@mail.com,06/05/1991,4.4779E+11,22315,Uniqueness,Duplicate CustomerID
+308,Jane,Wilson,,20/12/1961,,56176,Completeness,Missing mandatory field(s)
+738,David,Garcia,david.garcia@demo.net,24/06/2026,4.47121E+11,27368,Consistency,Date of birth is after current date
+896,Emily,Wilson,invalid@,10/11/1954,12345,,Validity,Invalid format or value
+948,Emily,Smith,user@@domain.com,06/05/1991,,,Validity,Invalid format or value
+106,John,Johnson,john.johnson@test.org,25/12/1989,4.47258E+11,94182,Uniqueness,Duplicate CustomerID
+680,John,Brown,john.brown@example.com,20/07/2026,4.47054E+11,57235,Consistency,Date of birth is after current date
+597,Emily,Jones,emily.jones@test.org,19/05/2026,4.47994E+11,61505,Consistency,Date of birth is after current date
+371,Sarah,Miller,sarah.miller@example.com,23/03/2026,4.47627E+11,50327,Consistency,Date of birth is after current date
+653,Chris,Davis,,17/11/1993,abcdefghij,9999999999,Validity,Invalid format or value
+346,Sarah,Garcia,sarah.garcia@demo.net,25/08/2002,4.47926E+11,13584,Uniqueness,Duplicate CustomerID
+415,James,Garcia,,15/12/1951,,43352,Completeness,Missing mandatory field(s)
+707,Anna,Garcia,anna.garcia@mail.com,21/05/1978,4.47926E+11,33639,Completeness,Missing mandatory field(s)
+735,John,Williams,john.williams@mail.com,27/06/1979,4.47384E+11,,Completeness,Missing mandatory field(s)
+452,James,Smith,james.smith@example.com,29/12/2025,4.47878E+11,97584,Consistency,Date of birth is after current date
+35,Anna,Brown,anna.brown@example.com,15/05/1956,,,Completeness,Missing mandatory field(s)
+823,Jane,Jones,,28/04/1998,4.4E+11,,Validity,Invalid format or value
+436,John,Brown,john.brown@example.com,26/10/1952,4.47923E+11,53309,Uniqueness,Duplicate CustomerID
+345,Anna,Miller,anna.miller@example.com,18/07/1952,4.47087E+11,,Completeness,Missing mandatory field(s)
+238,Emily,Johnson,invalid@,27/11/1999,abcdefghij,,Validity,Invalid format or value
+205,Chris,Wilson,chris.wilson@demo.net,07/02/2027,4.47116E+11,98452,Consistency,Date of birth is after current date
+974,Sarah,Smith,sarah.smith@test.org,03/03/2026,4.47044E+11,19225,Consistency,Date of birth is after current date
+854,David,Rodriguez,david.rodriguez@demo.net,25/03/1983,4.47939E+11,15693,Completeness,Missing mandatory field(s)
+678,Michael,Davis,michael.davis@example.com,03/02/1966,4.47791E+11,53540,Uniqueness,Duplicate CustomerID
+213,Emily,Garcia,emily.garcia@demo.net,08/03/1971,4.47919E+11,57537,Completeness,Missing mandatory field(s)
+862,David,Wilson,david.wilson@test.org,23/11/2004,,99208,Completeness,Missing mandatory field(s)
+299,Emily,Jones,emily.jones@example.com,03/10/2026,4.47256E+11,65027,Consistency,Date of birth is after current date
+940,Anna,Garcia,noatsign.com,07/10/1978,abcdefghij,ABCDE,Validity,Invalid format or value
+56,Anna,Wilson,,28/07/1956,abcdefghij,,Validity,Invalid format or value
+681,Emily,Jones,emily.jones@test.org,25/08/1991,4.47542E+11,62028,Uniqueness,Duplicate CustomerID
+58,Emily,Miller,user@@domain.com,26/02/1964,abcdefghij,,Validity,Invalid format or value
+672,Emily,Smith,,04/02/1974,4.47963E+11,,Completeness,Missing mandatory field(s)
+75,Chris,Miller,user@@domain.com,08/02/1998,abcdefghij,ABCDE,Validity,Invalid format or value
+261,Emily,Smith,emily.smith@test.org,11/11/1981,4.47891E+11,93055,Uniqueness,Duplicate CustomerID
+460,Emily,Brown,noatsign.com,19/10/1981,abcdefghij,9999999999,Validity,Invalid format or value
+800,John,Johnson,john.johnson@example.com,30/01/2027,4.47191E+11,43018,Consistency,Date of birth is after current date
+680,David,Johnson,david.johnson@test.org,28/06/2005,4.47951E+11,57400,Uniqueness,Duplicate CustomerID
+236,David,Smith,noatsign.com,13/11/2003,4.4E+11,ABCDE,Validity,Invalid format or value
+532,Michael,Wilson,michael.wilson@demo.net,15/05/1988,4.47553E+11,52982,Uniqueness,Duplicate CustomerID
+879,Emily,Wilson,emily.wilson@mail.com,19/10/1990,4.47998E+11,62947,Uniqueness,Duplicate CustomerID
+750,Laura,Garcia,laura.garcia@test.org,10/04/2026,4.47534E+11,95638,Consistency,Date of birth is after current date
+482,David,Smith,,15/02/1987,abcdefghij,ABCDE,Validity,Invalid format or value
+33,Sarah,Garcia,sarah.garcia@demo.net,09/11/1960,4.47266E+11,39451,Uniqueness,Duplicate CustomerID
+341,Sarah,Brown,,21/07/1996,4.47961E+11,,Completeness,Missing mandatory field(s)
+799,Jane,Williams,jane.williams@example.com,14/03/1991,4.4777E+11,53478,Uniqueness,Duplicate CustomerID
+496,Emily,Rodriguez,emily.rodriguez@demo.net,03/03/1984,4.47211E+11,29116,Uniqueness,Duplicate CustomerID
+222,John,Williams,john.williams@demo.net,14/11/2025,4.47122E+11,18330,Consistency,Date of birth is after current date
+989,Emily,Brown,emily.brown@test.org,10/12/1976,4.47099E+11,84774,Completeness,Missing mandatory field(s)
+474,Emily,Brown,emily.brown@mail.com,11/02/1998,4.47482E+11,28373,Uniqueness,Duplicate CustomerID
+797,James,Smith,invalid@,28/11/1968,12345,,Validity,Invalid format or value
+46,Laura,Brown,laura.brown@demo.net,06/04/1955,4.47177E+11,59672,Uniqueness,Duplicate CustomerID
+101,James,Garcia,james.garcia@demo.net,03/08/1955,4.47222E+11,65069,Completeness,Missing mandatory field(s)
+175,David,Garcia,david.garcia@test.org,14/12/2025,4.47749E+11,41300,Consistency,Date of birth is after current date
+967,James,Williams,james.williams@test.org,10/12/1978,4.4744E+11,94004,Completeness,Missing mandatory field(s)
+544,Anna,Williams,anna.williams@demo.net,02/11/1980,,99463,Completeness,Missing mandatory field(s)
+596,David,Johnson,david.johnson@example.com,25/06/2026,4.47711E+11,27132,Consistency,Date of birth is after current date
+67,David,Williams,,28/08/1977,,15229,Completeness,Missing mandatory field(s)
+594,Jane,Smith,user@@domain.com,18/08/1996,12345,,Validity,Invalid format or value
+830,Michael,Williams,michael.williams@mail.com,07/05/2026,4.47385E+11,15297,Consistency,Date of birth is after current date
+111,James,Smith,,12/02/1970,,,Completeness,Missing mandatory field(s)
+697,David,Davis,invalid@,22/04/2002,4.4E+11,ABCDE,Validity,Invalid format or value
+322,Michael,Smith,michael.smith@mail.com,04/07/2004,4.47728E+11,67432,Completeness,Missing mandatory field(s)
+306,John,Davis,,03/10/1972,4.47802E+11,12128,Completeness,Missing mandatory field(s)
+981,Sarah,Miller,,08/05/1983,,93000,Completeness,Missing mandatory field(s)
+520,Anna,Williams,,15/12/1987,12345,ABCDE,Validity,Invalid format or value
+184,Chris,Brown,chris.brown@example.com,07/12/1988,4.47106E+11,,Completeness,Missing mandatory field(s)
+992,Anna,Jones,anna.jones@example.com,13/09/2001,4.4741E+11,20286,Uniqueness,Duplicate CustomerID
+600,Laura,Garcia,laura.garcia@test.org,13/01/2027,4.4713E+11,80244,Consistency,Date of birth is after current date
+944,Chris,Garcia,chris.garcia@test.org,08/08/1991,4.47748E+11,14159,Uniqueness,Duplicate CustomerID
+853,Jane,Garcia,invalid@,21/02/2004,4.4E+11,,Validity,Invalid format or value
+827,Emily,Wilson,emily.wilson@test.org,22/09/2026,4.47499E+11,75683,Consistency,Date of birth is after current date
+14,Michael,Garcia,,21/03/1974,,93886,Completeness,Missing mandatory field(s)
+715,James,Wilson,james.wilson@test.org,25/07/2026,4.4707E+11,15992,Consistency,Date of birth is after current date
+518,Michael,Miller,,28/05/1971,4.47328E+11,25328,Completeness,Missing mandatory field(s)
+711,David,Davis,,28/06/1988,4.47513E+11,60242,Completeness,Missing mandatory field(s)
+656,Laura,Jones,laura.jones@mail.com,04/04/2026,4.47606E+11,18079,Consistency,Date of birth is after current date
+771,James,Garcia,james.garcia@demo.net,24/11/1997,,65363,Completeness,Missing mandatory field(s)
+426,Jane,Wilson,jane.wilson@example.com,28/12/2026,4.47642E+11,98083,Consistency,Date of birth is after current date
+220,Chris,Garcia,chris.garcia@test.org,16/07/1956,4.47842E+11,51662,Uniqueness,Duplicate CustomerID
+550,David,Johnson,david.johnson@example.com,02/12/2025,4.47229E+11,72496,Consistency,Date of birth is after current date
+496,Michael,Jones,michael.jones@mail.com,01/09/1972,4.47707E+11,30203,Uniqueness,Duplicate CustomerID
+494,James,Williams,james.williams@example.com,03/12/2026,4.47761E+11,37479,Consistency,Date of birth is after current date
+555,Michael,Davis,michael.davis@mail.com,28/01/2026,4.47073E+11,79534,Consistency,Date of birth is after current date
+91,Anna,Brown,anna.brown@demo.net,09/05/1994,4.47429E+11,,Completeness,Missing mandatory field(s)
+130,Jane,Jones,user@@domain.com,13/04/1986,12345,,Validity,Invalid format or value
+883,Chris,Garcia,chris.garcia@demo.net,10/07/2000,,41886,Completeness,Missing mandatory field(s)
+937,Emily,Rodriguez,emily.rodriguez@test.org,25/02/2026,4.47696E+11,79722,Consistency,Date of birth is after current date
